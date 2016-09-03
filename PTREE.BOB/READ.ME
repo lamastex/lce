@@ -1,0 +1,31 @@
+	 This is a companion disc to "Genealogical tree probabilities in the
+infinitely-many-site-model " by R. C. Griffiths. 
+
+	PTREE.EXE is a program for calculating the probability of a tree,
+with an option of the nodes being in relative age order.
+It is compiled here for an 8086/8087 family PC.
+
+	SYNTAX
+
+		PTREE 	[-a] [-E] infile theta1 [theta2] [theta3]...
+
+where -a is the age option, and -E produces Ewens' sampling formula
+probability for the allele configuration (or an age ordered version).
+Try
+		PTREE specimen.dat 1.0 2.0 3.0
+
+Look at specimen.dat for a specimen data file.
+
+	The subdirectory CODE contains the source code in C for PTREE.
+Just compile all the C files and link them (with medium memory model
+for the PC). Some conditional compilation #defines can be set in
+tree.h. Tested on MSC, Turbo C, Zortech C and VAX C.
+
+	Bug reports and comments to
+
+			Dr. R.C. Griffiths
+			Mathematics Dept.
+			Monash University
+			Clayton, 3168
+			Australia.
+

@@ -1,0 +1,15 @@
+Implementation of Stephens-Donnelly importance sampling proposal
+distribution. There is no 'generating value' of theta any more, all
+output has the same status for varying theta.
+
+A nice feature in this program is the ability to add any population 
+size change back in time. The user needs to add code to do this in time.c.
+See the various examples there of coalescent time generation, or ask Bob
+how to implement a particular changing population back in time.
+
+Which values of output for different theta are computed is controlled in 
+like.h.
+
+ Bob  26/05/01
+
+New to the program is the Clade age underneath a mutation.

@@ -1,0 +1,295 @@
+basic testing  for microsats 
+This process id is 10371
+
+
+*** PopPtrEmpty ***
+
+
+nsites = 1, nloci = 1, n_examples = 1
+theta 40 growth 50
+pop ptr is empty 
+about to make sampler
+about to use sampler
+Error :
+MultiLociMicrosatSampler::sample(const size_t, const boost::shared_ptr< hudson_ms::PopulationStructure >&, const std::vector < size_t >&, const boost::shared_ptr< aabc::ParameterParticle>&): pop
+
+
+*** PopEmpty ***
+
+
+nsites = 1, nloci = 1, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 0 npops 0
+pop->totalNsam() = 0
+about to make sampler
+about to use sampler
+Error :
+MultiLociMicrosatSampler::sample(const size_t, const boost::shared_ptr< hudson_ms::PopulationStructure >&, const std::vector < size_t >&, const boost::shared_ptr< aabc::ParameterParticle>&): pop
+
+
+*** PopSingle ***
+
+
+nsites = 1, nloci = 1, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 5 npops 1
+"1" : 	nsam = 5	size ratio = 1	growth rate = 0
+M  x
+Events
+pop->totalNsam() = 5
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0
+	18	
+	22	
+	20	
+	20	
+	20	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(18.00000	22.00000	20.00000	20.00000	20.00000)
+
+
+
+*** PopIslandComplex ***
+
+
+nsites = 1, nloci = 1, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 8 npops 2
+"1" : 	nsam = 3	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+"2" : 	nsam = 5	size ratio = 0.5	growth rate = 0.8
+	<- from 1 = 6
+M  x 5.0 6.0 x
+Events
+pop->totalNsam() = 8
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0
+	20	
+	20	
+	21	
+	20	
+	22	
+	20	
+	19	
+	22	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(20.00000	20.00000	21.00000	20.00000	22.00000	20.00000	19.00000	22.00000)
+
+
+
+*** PopSingle ***
+
+
+nsites = 1, nloci = 5, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 5 npops 1
+"1" : 	nsam = 5	size ratio = 1	growth rate = 0
+M  x
+Events
+pop->totalNsam() = 5
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	18	19	43	37	45	
+	22	17	41	37	46	
+	20	17	43	38	45	
+	20	18	43	36	45	
+	20	18	46	37	45	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(32.40000	32.60000	32.60000	32.40000	33.20000)
+
+
+
+*** PopIslandComplex ***
+
+
+nsites = 1, nloci = 5, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 8 npops 2
+"1" : 	nsam = 3	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+"2" : 	nsam = 5	size ratio = 0.5	growth rate = 0.8
+	<- from 1 = 6
+M  x 5.0 6.0 x
+Events
+pop->totalNsam() = 8
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	20	12	47	15	11	
+	20	12	43	12	11	
+	21	12	44	12	11	
+	20	11	44	14	13	
+	22	11	48	13	13	
+	20	12	44	10	14	
+	19	11	48	15	14	
+	22	14	44	13	12	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(21.00000	19.60000	20.00000	20.40000	21.40000	20.00000	21.40000	21.00000)
+
+
+
+*** PopSingle ***
+
+
+nsites = 3, nloci = 1, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 5 npops 1
+"1" : 	nsam = 5	size ratio = 1	growth rate = 0
+M  x
+Events
+pop->totalNsam() = 5
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0		
+	18	20	42	
+	22	19	41	
+	20	14	42	
+	20	18	43	
+	20	18	44	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(26.66667	27.33333	25.33333	27.00000	27.33333)
+
+
+
+*** PopIslandComplex ***
+
+
+nsites = 3, nloci = 1, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 8 npops 2
+"1" : 	nsam = 3	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+"2" : 	nsam = 5	size ratio = 0.5	growth rate = 0.8
+	<- from 1 = 6
+M  x 5.0 6.0 x
+Events
+pop->totalNsam() = 8
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0		
+	20	11	38	
+	20	10	41	
+	21	10	41	
+	20	13	43	
+	22	10	40	
+	20	13	43	
+	19	12	42	
+	22	14	40	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(23.00000	23.66667	24.00000	25.33333	24.00000	25.33333	24.33333	25.33333)
+
+
+
+*** PopSingle ***
+
+
+nsites = 3, nloci = 5, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 5 npops 1
+"1" : 	nsam = 5	size ratio = 1	growth rate = 0
+M  x
+Events
+pop->totalNsam() = 5
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0			1			2			3			4		
+	18	20	42	38	45	15	11	27	21	37	22	26	30	25	23	
+	22	19	41	35	48	12	10	25	17	36	26	29	29	26	24	
+	20	14	42	36	47	12	10	25	17	35	26	26	29	25	23	
+	20	18	43	35	47	12	13	27	16	36	23	27	31	24	24	
+	20	18	44	36	47	13	10	27	20	37	26	31	30	25	23	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(26.66667	26.60000	25.80000	26.40000	27.13333)
+
+
+
+*** PopIslandComplex ***
+
+
+nsites = 3, nloci = 5, n_examples = 1
+theta 40 growth 50
+Pop structure is nsam 8 npops 2
+"1" : 	nsam = 3	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+"2" : 	nsam = 5	size ratio = 0.5	growth rate = 0.8
+	<- from 1 = 6
+M  x 5.0 6.0 x
+Events
+pop->totalNsam() = 8
+about to make sampler
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0			1			2			3			4		
+	20	11	38	17	11	48	25	12	41	25	28	34	22	36	10	
+	20	10	41	14	11	48	24	15	42	24	29	34	24	36	10	
+	21	10	41	11	11	46	22	13	38	33	32	39	22	37	12	
+	20	13	43	13	13	46	19	12	40	26	31	36	21	37	13	
+	22	10	40	13	11	49	25	13	40	26	34	37	21	37	10	
+	20	13	43	10	11	46	23	12	40	26	33	35	21	37	10	
+	19	12	42	14	12	48	23	15	42	32	30	41	22	36	10	
+	22	14	40	12	13	45	23	13	40	26	32	37	22	36	11	
+
+
+
+
+Looking at the summary stats which should be the means for each individual over the reps
+(25.20000	25.46667	25.86667	25.53333	25.86667	25.33333	26.53333	25.73333)
+
+
+
+End of testing
+

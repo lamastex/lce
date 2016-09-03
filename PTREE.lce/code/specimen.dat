@@ -1,0 +1,36 @@
+/* 
+
+Specimen data file for ptree. C comments are allowed in the file
+
+Mutations are labeled 1, 2, ....
+The root is labeled 0.
+Input is a gene tree of mutation paths from the leaves of the tree to the 
+root 0. 
+Note that multiplicities come after sequences for ptree.
+example: ptree specimen.dat 1.5 2.5 3.0
+It is possible to obtain a maximum likelihood estimate of theta
+by using a fine enough grid for theta values.
+If the "age flag" is given on the command line, then 6 is supposed the
+youngest mutation, to 1 the oldest. This allows a likelihood comparison
+of various possible age trees.
+
+Computations are exact using ptree, the probability is evaluated by
+running through all possible genealogies. Try out smaller samples to find
+the capabilities of the machine that ptree runs on.
+
+Details of the model, algorithm etc are given in
+Griffiths, R. C. (1989) Genealogical-tree probabilities in the 
+infinitely-many-site model. J. Math. Biol. 27, 667-680.
+
+A more recent paper is
+Griffiths, R. C. and Tavare, S (1994) Ancestral inference in population 
+genetics. Statistical Science 9, 307-319.
+Likelihoods can be found for much larger samples using the techniques in this 
+paper by simulation. The program, however has a more complex user interface.
+
+*/
+
+ 2 1 0    2
+ 4 0      3
+ 6 4 0    1
+ 5 3 0    1

@@ -1,0 +1,80 @@
+#!/bin/bash
+TREES_SAMPLES=1
+TREES_SAMPLES_PER_THETA=1
+THETA_POINTS=101
+GROWTH_POINTS=101
+SFS_SAMPLES=10000#0000
+SFS_BURNIN=10000#10000#0
+THPARAMIN=1.0
+THPARAMAX=20.0
+THPARAMIN=0.0001
+THPARAMAX=100.0
+GRPARAMIN=0.0
+GRPARAMAX=100.0
+#GRPARAMAX=10.0
+THIN_OUT_SFS=1
+ALPHA_PRIOR=10.0
+NoDATASETS=5
+SIEVE_SIZE=1000
+SIEVE_SIZE=1
+COAL_CONDL_SFS=0
+SIEVE_MAX_TRIES=10000000
+QUIET=55
+QUIET=1
+QUIET=0 # no extra output
+#QUIET=10 # for timing output
+
+BOOL_IMP_SAMP=0 # importance sampling?  0 for no, 1 for yes
+NUM_IMP_SAMPLES=100000 # number of importance samples to take
+
+#DATA=/Users/raazesh/Machome/gtree90/IS_CLADE/MS_Simul_Data/n_10.t_10.r_0.g_0/sfsms
+BINS=09
+SAMPLEID=10
+#DIR=/Users/raazesh/Machome/gtree90/IS_CLADE/MS_Simul_Data/n_$SAMPLEID.t_10.r_0.g_0
+#DIR=../../sim/MS_Simul_Data/SFS_SPID
+DIR=../../sim/MS_Simul_Data/n_$SAMPLEID.t_100.g.r_0_10_100.m_100000
+#DIR=./Data
+#INPUT=SFS_n_10.t_100.r_0.g_0
+#INPUT=SFS_n_04.t_100.g_0.r_0.m_100000.reps_10000
+INPUT=SFS_n_$SAMPLEID.t_100.g_100.r_10.m_100000.reps_10000
+#INPUT=SFS_n_10.t_1_10_100.r_0.g_0
+DATA=$DIR/$INPUT
+
+######DATA=$DIR/SFS_n_$SAMPLEID
+#DATA=./SFS_n_30_rest
+#DATA=../../sim/MS_Simul_Data/n_30.t_10.r_0.g_0/sfsms.712
+NoDATASETS=10000
+COUNTDATA=$DIR/CountSFS_n_$SAMPLEID
+PT_OUTFILE=./OUTJAH/PrSi_n_$SAMPLEID
+LIK_OUTFILE=./OUTJAH/jahOutput
+MOVESFILE=./SPI.moves/SPI_n_$SAMPLEID.moves
+
+#REDIRECTOUTPUT=./OUTJAH/stats_test.txt
+#this is the actual results!!!
+REDIRECTOUTPUT=./Tests/$INPUT.pvalues.txt
+#mkdir $DIR/SFSsOfSPI_n_$SAMPLEID
+#rm $OUTFILE.naninfs
+SIMSIZE=1
+REPS=1
+#SEED=3787795$REPS
+SEED=3323427795$REPS
+
+
+#   echo _____________________________
+#   echo The replicate is $REPS
+#   echo _____________________________
+
+#DATA=sfsms.712
+#echo -n $REPS
+
+#SIEVE_SIZE=`head -n $REPS $COUNTDATA | tail -n 1`
+#echo count is $SIEVE_SIZE
+#echo -n $SIEVE_SIZE
+
+
+COAL_CONDL_SFS=0
+
+rm TajDPvalsM
+cp ../src/TajDPvalsM TajDPvalsM
+
+./TajDPvalsM -C 0 -H $ALPHA_PRIOR -b $BINS -d $DATA -D $NoDATASETS -Y $REPS -n $SIEVE_SIZE -N $SIEVE_MAX_TRIES -q $QUIET -J 10 -g $GRPARAMIN -G $GRPARAMAX -t $THPARAMIN -T $THPARAMAX -I $SFS_SAMPLES -R $TREES_SAMPLES -s $TREES_SAMPLES_PER_THETA -m $MOVESFILE -M 2 -P $THETA_POINTS -Q $GROWTH_POINTS -A 1 -W $SFS_BURNIN -K $THIN_OUT_SFS -h 100000 -i 500000 -o $LIK_OUTFILE -E $PT_OUTFILE.MTP_$TREES_SAMPLES.n_$SAMPLEID  -z $SEED -c $COAL_CONDL_SFS -F $BOOL_IMP_SAMP -f $NUM_IMP_SAMPLES  | tee -a $REDIRECTOUTPUT

@@ -1,0 +1,304 @@
+
+
+Constructing an empty population called pop
+
+Adding subpopulations:
+With pop.add(nsam) with nsam = 1
+with pop.add(nsam, sizeRatio, growthRate) with nsam = 2, sizeRatio = 0.5, growthRate = 1
+with pop.add(nsam, sizeRatio, growthRate) with nsam = 3, sizeRatio = 0.333333, growthRate = 2
+With pop.add(nsam, growthRate) with nsam = 4, growthRate = 3
+
+After adding subpopulations:
+nsam 10 npops 4
+"1" : 	nsam = 1	size ratio = 1	growth rate = 0
+"2" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+"3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Relabel(int = 0, string = Originally1)
+After relabelling:
+nsam 10 npops 4
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+"2" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+"3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Relabel(string = "3", string = Originally3)
+After relabelling:
+nsam 10 npops 4
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+"2" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Set some migration rates
+Setting migration parameter into "Originally1" from "2"
+setMigration("Originally1", "2", 3)
+pop.getMigration(0, 1) = 3
+Setting migration parameter into 0 from 2
+setMigration(0, 2", 4)
+pop.getMigration("Originally1", "Originally3") = 4
+Setting migration parameter into "2" from "Originally3"
+setMigration("2", "Originally3", 0.1)
+pop.getMigration(1, 2) = 0.1
+Setting migration parameter into 1 from 3
+setMigration(1, 3", 1)
+pop.getMigration("2", "4") = 1
+Setting migration parameter into "Originally3" from "Originally1"
+setMigration("Originally3", "Originally1", 5)
+pop.getMigration(2, 0) = 5
+Setting migration parameter into 2 from 1
+setMigration(2, 1", 10)
+pop.getMigration("Originally3", "2") = 10
+Setting migration parameter into "4" from "Originally1"
+setMigration("4", "Originally1", 0.6)
+pop.getMigration(3, 0) = 0.6
+Setting migration parameter into 3 from 2
+setMigration(3, 2", 0.7)
+pop.getMigration("4", "Originally3") = 0.7
+
+pop now is 
+nsam 10 npops 4
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 2 = 3
+	<- from Originally3 = 4
+"2" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+	<- from 4 = 1
+	<- from Originally3 = 0.1
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from 2 = 10
+	<- from Originally1 = 5
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 0.6
+	<- from Originally3 = 0.7
+M  x 3.0 4.0 0.0 0.0 x 0.1 1.0 5.0 10.0 x 0.0 0.6 0.0 0.7 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	3.0	4.0	0.0
+1	0.0	n/a	0.1	1.0
+2	5.0	10.0	n/a	0.0
+3	0.6	0.0	0.7	n/a
+
+
+pop.doMigCheck()
+
+Reordering to newOrder =
+2, Originally1, Originally3, 4, 
+pop.resetOrdering(newOrder)
+
+pop now is 
+nsam 10 npops 4
+"1" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+	<- from 4 = 1
+	<- from Originally3 = 0.1
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 1 = 3
+	<- from Originally3 = 4
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from 1 = 10
+	<- from Originally1 = 5
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 0.6
+	<- from Originally3 = 0.7
+M  x 0.0 0.1 1.0 3.0 x 4.0 0.0 10.0 5.0 x 0.0 0.0 0.6 0.7 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	0.0	0.1	1.0
+1	3.0	n/a	4.0	0.0
+2	10.0	5.0	n/a	0.0
+3	0.0	0.6	0.7	n/a
+
+
+pop.doMigCheck()
+
+Change migration parameter into "1" from "4"
+From getMigration("1", "4") = 1 to 777
+pop.getMigration("1", "4") = 777
+
+pop now is 
+nsam 10 npops 4
+"1" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+	<- from 4 = 777
+	<- from Originally3 = 0.1
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 1 = 3
+	<- from Originally3 = 4
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from 1 = 10
+	<- from Originally1 = 5
+"4" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 0.6
+	<- from Originally3 = 0.7
+M  x 0.0 0.1 777.0 3.0 x 4.0 0.0 10.0 5.0 x 0.0 0.0 0.6 0.7 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	0.0	0.1	777.0
+1	3.0	n/a	4.0	0.0
+2	10.0	5.0	n/a	0.0
+3	0.0	0.6	0.7	n/a
+
+
+pop.doMigCheck()
+
+Reordering to newOrder =
+1, Originally1, 4, Originally3, 
+pop.resetOrdering(newOrder)
+
+pop now is 
+nsam 10 npops 4
+"1" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+	<- from 3 = 777
+	<- from Originally3 = 0.1
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 1 = 3
+	<- from Originally3 = 4
+"3" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 0.6
+	<- from Originally3 = 0.7
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from 1 = 10
+	<- from Originally1 = 5
+M  x 0.0 777.0 0.1 3.0 x 0.0 4.0 0.0 0.6 x 0.7 10.0 5.0 0.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	0.0	777.0	0.1
+1	3.0	n/a	0.0	4.0
+2	0.0	0.6	n/a	0.7
+3	10.0	5.0	0.0	n/a
+
+
+pop.doMigCheck()
+
+Change migration parameter into "3" from "Originally1"
+From getMigration("3", "Originally1") = 0.6 to 999
+pop.getMigration("3", "Originally1") = 999
+
+pop now is 
+nsam 10 npops 4
+"1" : 	nsam = 2	size ratio = 0.5	growth rate = 1
+	<- from 3 = 777
+	<- from Originally3 = 0.1
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 1 = 3
+	<- from Originally3 = 4
+"3" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 999
+	<- from Originally3 = 0.7
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from 1 = 10
+	<- from Originally1 = 5
+M  x 0.0 777.0 0.1 3.0 x 0.0 4.0 0.0 999.0 x 0.7 10.0 5.0 0.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	0.0	777.0	0.1
+1	3.0	n/a	0.0	4.0
+2	0.0	999.0	n/a	0.7
+3	10.0	5.0	0.0	n/a
+
+
+pop.doMigCheck()
+
+Deleting population at index 0 (label "1")
+pop.Erase(0)
+
+pop now is 
+nsam 8 npops 3
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from Originally3 = 4
+"2" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 999
+	<- from Originally3 = 0.7
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from Originally1 = 5
+M  x 0.0 4.0 999.0 x 0.7 5.0 0.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2
+0	n/a	0.0	4.0
+1	999.0	n/a	0.7
+2	5.0	0.0	n/a
+
+
+pop.doMigCheck()
+
+Relabelling to newlabels =
+Originally1, Originally4, Originally3, 
+pop.relabel(newlabels)
+
+pop now is 
+nsam 8 npops 3
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from Originally3 = 4
+"Originally4" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 999
+	<- from Originally3 = 0.7
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from Originally1 = 5
+M  x 0.0 4.0 999.0 x 0.7 5.0 0.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2
+0	n/a	0.0	4.0
+1	999.0	n/a	0.7
+2	5.0	0.0	n/a
+
+
+Setting migration parameter into 2 from 1
+setMigration(2, 1", 1999)
+pop.getMigration("Originally3", "Originally4") = 1999
+
+pop now is 
+nsam 8 npops 3
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from Originally3 = 4
+"Originally4" : 	nsam = 4	size ratio = 1	growth rate = 3
+	<- from Originally1 = 999
+	<- from Originally3 = 0.7
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from Originally1 = 5
+	<- from Originally4 = 1999
+M  x 0.0 4.0 999.0 x 0.7 5.0 1999.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2
+0	n/a	0.0	4.0
+1	999.0	n/a	0.7
+2	5.0	1999.0	n/a
+
+
+pop.doMigCheck()
+
+Deleting population at index 1 (label "Originally4")
+pop.Erase("Originally4")
+
+pop now is 
+nsam 4 npops 2
+"Originally1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from Originally3 = 4
+"Originally3" : 	nsam = 3	size ratio = 0.333333	growth rate = 2
+	<- from Originally1 = 5
+M  x 4.0 5.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1
+0	n/a	4.0
+1	5.0	n/a
+
+
+pop.doMigCheck()
+
+
+End of testing
+
+

@@ -1,0 +1,127 @@
+
+
+Setting up population structure
+nsites = 10 nsam = 5
+theta 10 growth 5, rho , nsites 10
+Pop migration matrix is 
+SubPop	0	1
+0	n/a	5.0
+1	0.0	n/a
+
+
+
+Try using empty population labeled arg pointer to make partitioned arg sequence generator 
+That resulted in an invalid argument exception
+PartitionedARGSequenceGenerator::PartitionedARGSequenceGenerator(int, boost::shared_ptr < PopulationLabeledARG >)
+
+Try using the population to make a population labeled arg pointer using mct::ARGFactory
+The labeled_arg is
+(1:0.443,((2:0.035,3:0.035):0.138,(4:0.052,5:0.052):0.121):0.270);
+Population labels:	1	1	1	2	2	
+
+
+Try making a PartitionedARGSequenceGenerator
+
+
+Try using this with models with wrong number of sites 9
+That resulted in an invalid argument exception
+PartitionedARGSequenceGenerator::createSampleSeqs(const boost::shared_ptr < ModelSet >&):
+Sites covered by models != sites in ARG
+
+
+Try using this with a microsat model with correct number of sites 
+
+sequence in raw format (with labels) is
+0( 34	15	29	41	15	44	31	32	39	14	)
+0( 34	15	28	42	15	44	16	32	39	10	)
+0( 34	15	28	42	15	44	16	32	39	10	)
+1( 34	15	29	41	16	44	28	32	39	10	)
+1( 35	15	29	41	16	44	28	32	39	10	)
+
+
+sequence in stringPhylipFormat() is
+.34.15.29.41.15.44.31.32.39.14.
+.34.15.28.42.15.44.16.32.39.10.
+.34.15.28.42.15.44.16.32.39.10.
+.34.15.29.41.16.44.28.32.39.10.
+.35.15.29.41.16.44.28.32.39.10.
+
+getting sequence in Sequence::PolySites snpTableFormat() format
+That resulted in a std::domain_error
+MCTSampleSequence::snpTableFormat() :
+not a valid aligned pure DNA sequence
+
+getting sequence in microsat repeats format
+repeats format is
+( 34	15	29	41	15	44	31	32	39	14	)
+
+( 34	15	28	42	15	44	16	32	39	10	)
+
+( 34	15	28	42	15	44	16	32	39	10	)
+
+( 34	15	29	41	16	44	28	32	39	10	)
+
+( 35	15	29	41	16	44	28	32	39	10	)
+
+
+
+Try using this with a nucleotide model with correct number of sites 
+
+sequence in raw format (with labels) is
+0( 3	3	0	0	0	3	2	1	2	2	)
+0( 0	2	2	0	3	3	1	1	1	0	)
+0( 0	1	2	0	3	3	1	1	1	0	)
+1( 0	2	2	0	3	3	2	1	1	0	)
+1( 0	2	2	0	3	3	0	1	1	0	)
+
+
+sequence in stringPhylipFormat() is
+TTAAATGCGG
+AGGATTCCCA
+ACGATTCCCA
+AGGATTGCCA
+AGGATTACCA
+
+getting sequence in Sequence::PolySites snpTableFormat() format
+polysites format polysites.print(...) gives
+1	2	3	5	7	9	10
+T	T	A	A	G	G	G
+A	G	G	T	C	C	A
+A	C	G	T	C	C	A
+A	G	G	T	G	C	A
+A	G	G	T	A	C	A
+getting sequence in microsat repeats format
+That resulted in a std::domain_error
+MCTSampleSequence::microsatSiteSeqFormat() :
+Sequence is not pure MICROSAT data
+
+
+Try using this with a mixed nucleotide and microsat model with correct number of sites 
+
+sequence in raw format (with labels) is
+0( 47	20	3	3	3	28	39	1	1	3	)
+0( 47	19	0	2	3	28	11	2	1	0	)
+0( 46	19	0	2	3	28	11	2	1	0	)
+1( 46	19	0	2	3	28	43	1	1	0	)
+1( 46	19	0	2	3	28	43	1	1	0	)
+
+
+sequence in stringPhylipFormat() is
+.47.20.TTT.28.39.CCT
+.47.19.AGT.28.11.GCA
+.46.19.AGT.28.11.GCA
+.46.19.AGT.28.43.CCA
+.46.19.AGT.28.43.CCA
+
+getting sequence in Sequence::PolySites snpTableFormat() format
+That resulted in a std::domain_error
+MCTSampleSequence::snpTableFormat() :
+not a valid aligned pure DNA sequence
+
+getting sequence in microsat repeats format
+That resulted in a std::domain_error
+MCTSampleSequence::microsatSiteSeqFormat() :
+Sequence is not pure MICROSAT data
+
+End of testing
+

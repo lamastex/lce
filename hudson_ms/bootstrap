@@ -1,0 +1,17 @@
+#!/bin/sh
+
+echo "Running bootstrap in hudson_ms"
+
+# Explain what we are doing from now
+set -x
+
+#libtoolize
+aclocal -I m4
+autoheader
+automake --add-missing --copy
+autoconf
+
+echo "Changing to hudson_ms_lib"
+cd hudson_ms_lib
+./bootstrap
+

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+Name: @PACKAGE_NAME@
+Description: Example C++ library.
+Version: @PACKAGE_VERSION@
+URL: @PACKAGE_URL@
+Libs: -L${libdir} -lmscplusplus-@MSCPLUSPLUS_API_VERSION@
+Cflags: -I${includedir}/mscplusplus-@MSCPLUSPLUS_API_VERSION@ -I${libdir}/mscplusplus-@MSCPLUSPLUS_API_VERSION@/include

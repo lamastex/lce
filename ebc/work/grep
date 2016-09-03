@@ -1,0 +1,48 @@
+The replicate is 1
+SEED = 10231
+       first       = 2      second       = 3  NSAM = 6
+extant lineages      0 1 2 3 4 5 
+their tips           0 1 2 3 4 5 
+their offspring size 1 1 1 1 1 1 
+       first       = 1      second       = 4  NSAM = 5
+extant lineages      0 1 2 3 4 
+their tips           0 1 6 5 4 
+their offspring size 1 1 2 1 1 
+       first       = 1      second       = 3  NSAM = 4
+extant lineages      0 1 2 3 
+their tips           0 7 6 5 
+their offspring size 1 2 2 1 
+       first       = 0      second       = 1  NSAM = 3
+extant lineages      0 1 2 
+their tips           0 8 6 
+their offspring size 1 3 2 
+       first       = 0      second       = 1  NSAM = 2
+extant lineages      0 1 
+their tips           9 6 
+their offspring size 4 2 
+arg chunck 0
+marginal tree begins at: 0
+0 0.000000 9
+1 0.000000 7
+2 0.000000 6
+3 0.000000 6
+4 0.000000 7
+5 0.000000 8
+6 0.004875 10
+7 0.073409 8
+8 0.190832 9
+9 0.214575 10
+10 1.280685 -1
+((3:0.004875,4:0.004875):1.275810,(1:0.214575,(6:0.190832,(2:0.073409,5:0.073409):0.117423):0.023743):1.066110);
+printed final tree
+0 0   |   1	 0
+0 1   |   1	 1
+0 2   |   1	 2
+0 3   |   1	 3
+0 4   |   1	 4
+0 5   |   1	 5
+0 6   |   2	 2 3
+0 7   |   2	 1 4
+0 8   |   3	 1 4 5
+0 9   |   4	 0 1 4 5
+0 10   |   6	 0 1 2 3 4 5

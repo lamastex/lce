@@ -1,0 +1,3 @@
+gcc -O2 -o ms_multitheta  ms.c  rand2.c streec.c -lm
+#gcc -g -o ms  ms.c  rand2.c streec.c -lm
+

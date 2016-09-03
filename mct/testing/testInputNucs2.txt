@@ -1,0 +1,18 @@
+[Profile]
+	Title="Styela07"
+	NbSamples=2
+	GenotypicData=0
+	DataType=DNA
+	LocusSeparator=NONE
+[Data]
+ [[Samples]]
+	SampleName="AKL"
+	SampleSize=268
+	
+[[Structure]]
+	StructureName="nz"
+	NbGroups=1
+	Group={
+		"AKL"
+		"LYT"
+	}

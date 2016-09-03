@@ -1,0 +1,23 @@
+[models]
+HKY 10 ss=4 hval=4 p=65 q=true
+SMM 5 ss=23 param1=34.1
+
+
+
+EOF
+
+Need to:
+
+extract data from file. Put this into a class:
+
+struct ModelLine {
+    string modelname;
+    int num_sites;
+    map<string, string> opts;
+    int lineno;
+}
+
+From this, we find the correct model name, and check that the options are all
+valid for that model.
+
+The Model can then be created with the appropriate options set.

@@ -1,0 +1,2100 @@
+_____________________________
+The replicate is 1
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.691582
+x_4 = 1 --> P_4 = 1.409638
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.373756
+x_4 = 1 --> P_4 = 0.108812
+x_10 = 2 --> P_10 = 0.015725
+x_29 = 9 --> P_29 = 0.293234
+
+_____________________________
+The replicate is 2
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.109329
+x_4 = 1 --> P_4 = 0.176132
+x_10 = 2 --> P_10 = 0.002262
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.695555
+x_4 = 1 --> P_4 = 0.157279
+x_10 = 2 --> P_10 = 0.005560
+x_29 = 9 --> P_29 = 0.067742
+
+_____________________________
+The replicate is 3
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.078620
+x_4 = 1 --> P_4 = 0.039487
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.138098
+x_4 = 1 --> P_4 = 0.083692
+x_10 = 2 --> P_10 = 0.028713
+x_29 = 9 --> P_29 = 0.595771
+
+_____________________________
+The replicate is 4
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.110211
+x_4 = 1 --> P_4 = 0.019750
+x_10 = 2 --> P_10 = 0.005528
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.811031
+x_4 = 1 --> P_4 = 0.078997
+x_10 = 2 --> P_10 = 0.021405
+x_29 = 9 --> P_29 = 0.449342
+
+_____________________________
+The replicate is 5
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.902017
+x_4 = 1 --> P_4 = 0.429691
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.832097
+x_4 = 1 --> P_4 = 0.051620
+x_10 = 2 --> P_10 = 0.710007
+x_29 = 9 --> P_29 = 0.220237
+
+_____________________________
+The replicate is 6
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.156948
+x_4 = 1 --> P_4 = 0.196114
+x_10 = 2 --> P_10 = 0.102077
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.578428
+x_4 = 1 --> P_4 = 0.086037
+x_10 = 2 --> P_10 = 0.988305
+x_29 = 9 --> P_29 = 0.279864
+
+_____________________________
+The replicate is 7
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.905602
+x_4 = 1 --> P_4 = 0.672130
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.207619
+x_4 = 1 --> P_4 = 0.007808
+x_10 = 2 --> P_10 = 0.002436
+x_29 = 9 --> P_29 = 0.055842
+
+_____________________________
+The replicate is 8
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.979329
+x_4 = 1 --> P_4 = 0.590457
+x_10 = 2 --> P_10 = 0.006711
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.191656
+x_4 = 1 --> P_4 = 0.089201
+x_10 = 2 --> P_10 = 0.007290
+x_29 = 9 --> P_29 = 0.713017
+
+_____________________________
+The replicate is 9
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.196636
+x_4 = 1 --> P_4 = 0.039524
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.896427
+x_4 = 1 --> P_4 = 0.092980
+x_10 = 2 --> P_10 = 0.236609
+x_29 = 9 --> P_29 = 0.204909
+
+_____________________________
+The replicate is 10
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.555622
+x_4 = 1 --> P_4 = 0.066277
+x_10 = 2 --> P_10 = 0.721711
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.845769
+x_4 = 1 --> P_4 = 0.089805
+x_10 = 2 --> P_10 = 0.029962
+x_29 = 9 --> P_29 = 1.327713
+
+_____________________________
+The replicate is 11
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.813013
+x_4 = 1 --> P_4 = 0.002125
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.663377
+x_4 = 1 --> P_4 = 0.051741
+x_10 = 2 --> P_10 = 0.009618
+x_29 = 9 --> P_29 = 0.938340
+
+_____________________________
+The replicate is 12
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.483632
+x_4 = 1 --> P_4 = 0.073121
+x_10 = 2 --> P_10 = 0.019795
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.074063
+x_4 = 1 --> P_4 = 0.019142
+x_10 = 2 --> P_10 = 0.022652
+x_29 = 9 --> P_29 = 0.228412
+
+_____________________________
+The replicate is 13
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.009822
+x_4 = 1 --> P_4 = 0.398545
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.475971
+x_4 = 1 --> P_4 = 0.235643
+x_10 = 2 --> P_10 = 0.351576
+x_29 = 9 --> P_29 = 0.913694
+
+_____________________________
+The replicate is 14
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.902972
+x_4 = 1 --> P_4 = 0.474628
+x_10 = 2 --> P_10 = 0.449873
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.133956
+x_4 = 1 --> P_4 = 0.011300
+x_10 = 2 --> P_10 = 0.011388
+x_29 = 9 --> P_29 = 0.177444
+
+_____________________________
+The replicate is 15
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.567134
+x_4 = 1 --> P_4 = 0.081579
+x_10 = 2 --> P_10 = 0.030237
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.125570
+x_4 = 1 --> P_4 = 0.134388
+x_10 = 2 --> P_10 = 0.074046
+x_29 = 9 --> P_29 = 0.041860
+
+_____________________________
+The replicate is 16
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.855346
+x_4 = 1 --> P_4 = 0.030187
+x_10 = 2 --> P_10 = 0.045938
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.412891
+x_4 = 1 --> P_4 = 0.110492
+x_10 = 2 --> P_10 = 0.092688
+x_29 = 9 --> P_29 = 1.311616
+
+_____________________________
+The replicate is 17
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.072250
+x_4 = 1 --> P_4 = 0.077279
+x_10 = 2 --> P_10 = 0.085269
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.418215
+x_4 = 1 --> P_4 = 0.012122
+x_10 = 2 --> P_10 = 0.028693
+x_29 = 9 --> P_29 = 0.121152
+
+_____________________________
+The replicate is 18
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.256207
+x_4 = 1 --> P_4 = 0.117103
+x_10 = 2 --> P_10 = 0.488859
+x_29 = 9 --> P_29 = 0.126944
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.698504
+x_4 = 1 --> P_4 = 0.328451
+x_10 = 2 --> P_10 = 0.045857
+x_29 = 9 --> P_29 = 0.468661
+
+_____________________________
+The replicate is 19
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.941463
+x_4 = 1 --> P_4 = 0.132406
+x_10 = 2 --> P_10 = 0.011681
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.656222
+x_4 = 1 --> P_4 = 0.020076
+x_10 = 2 --> P_10 = 0.029994
+x_29 = 9 --> P_29 = 0.060617
+
+_____________________________
+The replicate is 20
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.787573
+x_4 = 1 --> P_4 = 0.042590
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.876200
+x_4 = 1 --> P_4 = 0.157319
+x_10 = 2 --> P_10 = 0.098361
+x_29 = 9 --> P_29 = 0.596943
+
+_____________________________
+The replicate is 21
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.918658
+x_4 = 1 --> P_4 = 0.013862
+x_10 = 2 --> P_10 = 1.522824
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.283565
+x_4 = 1 --> P_4 = 0.131657
+x_10 = 2 --> P_10 = 0.186293
+x_29 = 9 --> P_29 = 0.296256
+
+_____________________________
+The replicate is 22
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.858234
+x_4 = 1 --> P_4 = 0.245722
+x_10 = 2 --> P_10 = 0.455590
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.425213
+x_4 = 1 --> P_4 = 0.199775
+x_10 = 2 --> P_10 = 0.007972
+x_29 = 9 --> P_29 = 0.500008
+
+_____________________________
+The replicate is 23
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.901472
+x_4 = 1 --> P_4 = 1.054472
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.800943
+x_4 = 1 --> P_4 = 0.011588
+x_10 = 2 --> P_10 = 0.021403
+x_29 = 9 --> P_29 = 1.041201
+
+_____________________________
+The replicate is 24
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.817867
+x_4 = 1 --> P_4 = 0.189021
+x_10 = 2 --> P_10 = 0.034166
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.446028
+x_4 = 1 --> P_4 = 0.055788
+x_10 = 2 --> P_10 = 0.004505
+x_29 = 9 --> P_29 = 0.568280
+
+_____________________________
+The replicate is 25
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.785334
+x_4 = 1 --> P_4 = 0.103548
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.697490
+x_4 = 1 --> P_4 = 0.280557
+x_10 = 2 --> P_10 = 0.160593
+x_29 = 9 --> P_29 = 0.252978
+
+_____________________________
+The replicate is 26
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.911237
+x_4 = 1 --> P_4 = 0.089530
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.416216
+x_4 = 1 --> P_4 = 0.004088
+x_10 = 2 --> P_10 = 0.016883
+x_29 = 9 --> P_29 = 0.215884
+
+_____________________________
+The replicate is 27
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.486651
+x_4 = 1 --> P_4 = 0.067465
+x_10 = 2 --> P_10 = 0.007515
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.571488
+x_4 = 1 --> P_4 = 0.091630
+x_10 = 2 --> P_10 = 0.087933
+x_29 = 9 --> P_29 = 0.370251
+
+_____________________________
+The replicate is 28
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.893736
+x_4 = 1 --> P_4 = 0.055683
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.202590
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.680728
+x_4 = 1 --> P_4 = 0.485563
+x_10 = 2 --> P_10 = 0.005957
+x_29 = 9 --> P_29 = 0.023302
+
+_____________________________
+The replicate is 29
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.213712
+x_4 = 1 --> P_4 = 0.050099
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.938640
+x_4 = 1 --> P_4 = 0.102782
+x_10 = 2 --> P_10 = 0.141095
+x_29 = 9 --> P_29 = 0.757753
+
+_____________________________
+The replicate is 30
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.817971
+x_4 = 1 --> P_4 = 0.140713
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.696535
+x_4 = 1 --> P_4 = 0.019141
+x_10 = 2 --> P_10 = 0.018147
+x_29 = 9 --> P_29 = 0.300568
+
+_____________________________
+The replicate is 31
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.558603
+x_4 = 1 --> P_4 = 0.165703
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.002505
+x_4 = 1 --> P_4 = 0.233900
+x_10 = 2 --> P_10 = 0.127737
+x_29 = 9 --> P_29 = 0.009153
+
+_____________________________
+The replicate is 32
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.282538
+x_4 = 1 --> P_4 = 0.126439
+x_10 = 2 --> P_10 = 0.781593
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.518165
+x_4 = 1 --> P_4 = 0.192271
+x_10 = 2 --> P_10 = 0.004812
+x_29 = 9 --> P_29 = 0.331240
+
+_____________________________
+The replicate is 33
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.521867
+x_4 = 1 --> P_4 = 0.473833
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.596349
+x_4 = 1 --> P_4 = 0.343123
+x_10 = 2 --> P_10 = 0.462432
+x_29 = 9 --> P_29 = 0.296283
+
+_____________________________
+The replicate is 34
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.962085
+x_4 = 1 --> P_4 = 0.449735
+x_10 = 2 --> P_10 = 0.287254
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.238658
+x_4 = 1 --> P_4 = 0.288324
+x_10 = 2 --> P_10 = 0.069074
+x_29 = 9 --> P_29 = 0.700620
+
+_____________________________
+The replicate is 35
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.108017
+x_4 = 1 --> P_4 = 0.129366
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.169024
+x_4 = 1 --> P_4 = 0.146742
+x_10 = 2 --> P_10 = 0.026106
+x_29 = 9 --> P_29 = 0.235895
+
+_____________________________
+The replicate is 36
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.031669
+x_4 = 1 --> P_4 = 0.292926
+x_10 = 2 --> P_10 = 0.006244
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.265835
+x_4 = 1 --> P_4 = 0.046438
+x_10 = 2 --> P_10 = 0.394689
+x_29 = 9 --> P_29 = 1.013262
+
+_____________________________
+The replicate is 37
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.848818
+x_4 = 1 --> P_4 = 0.100721
+x_10 = 2 --> P_10 = 0.011886
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.305807
+x_4 = 1 --> P_4 = 0.032943
+x_10 = 2 --> P_10 = 0.012525
+x_29 = 9 --> P_29 = 0.104620
+
+_____________________________
+The replicate is 38
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.009528
+x_4 = 1 --> P_4 = 0.202676
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.258482
+x_4 = 1 --> P_4 = 0.127788
+x_10 = 2 --> P_10 = 0.234201
+x_29 = 9 --> P_29 = 0.021681
+
+_____________________________
+The replicate is 39
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.107024
+x_4 = 1 --> P_4 = 0.005443
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.438956
+x_4 = 1 --> P_4 = 0.020412
+x_10 = 2 --> P_10 = 0.672137
+x_29 = 9 --> P_29 = 0.295218
+
+_____________________________
+The replicate is 40
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.645548
+x_4 = 1 --> P_4 = 0.707610
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.940952
+x_4 = 1 --> P_4 = 0.122554
+x_10 = 2 --> P_10 = 0.079182
+x_29 = 9 --> P_29 = 0.663750
+
+_____________________________
+The replicate is 41
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.609312
+x_4 = 1 --> P_4 = 0.095035
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.664549
+x_4 = 1 --> P_4 = 0.386639
+x_10 = 2 --> P_10 = 0.025992
+x_29 = 9 --> P_29 = 1.768238
+
+_____________________________
+The replicate is 42
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 2.033221
+x_4 = 1 --> P_4 = 0.172539
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.639349
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.298890
+x_4 = 1 --> P_4 = 0.307345
+x_10 = 2 --> P_10 = 0.193439
+x_29 = 9 --> P_29 = 0.257283
+
+_____________________________
+The replicate is 43
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.574224
+x_4 = 1 --> P_4 = 0.289659
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.756845
+x_4 = 1 --> P_4 = 0.058984
+x_10 = 2 --> P_10 = 0.019097
+x_29 = 9 --> P_29 = 0.748153
+
+_____________________________
+The replicate is 44
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.107466
+x_4 = 1 --> P_4 = 0.241405
+x_10 = 2 --> P_10 = 0.147303
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.729763
+x_4 = 1 --> P_4 = 0.340774
+x_10 = 2 --> P_10 = 0.037946
+x_29 = 9 --> P_29 = 0.421901
+
+_____________________________
+The replicate is 45
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.927284
+x_4 = 1 --> P_4 = 0.194070
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.895918
+x_4 = 1 --> P_4 = 0.102136
+x_10 = 2 --> P_10 = 0.003730
+x_29 = 9 --> P_29 = 0.575020
+
+_____________________________
+The replicate is 46
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.193776
+x_4 = 1 --> P_4 = 0.258815
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.462479
+x_4 = 1 --> P_4 = 0.028472
+x_10 = 2 --> P_10 = 0.059561
+x_29 = 9 --> P_29 = 0.572362
+
+_____________________________
+The replicate is 47
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.946459
+x_4 = 1 --> P_4 = 0.187674
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.259847
+x_4 = 1 --> P_4 = 0.145334
+x_10 = 2 --> P_10 = 0.115981
+x_29 = 9 --> P_29 = 0.867484
+
+_____________________________
+The replicate is 48
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.951349
+x_4 = 1 --> P_4 = 0.555031
+x_10 = 2 --> P_10 = 0.054882
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.458191
+x_4 = 1 --> P_4 = 0.011413
+x_10 = 2 --> P_10 = 0.004415
+x_29 = 9 --> P_29 = 0.238912
+
+_____________________________
+The replicate is 49
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.637984
+x_4 = 1 --> P_4 = 0.052555
+x_10 = 2 --> P_10 = 0.039481
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.391486
+x_4 = 1 --> P_4 = 0.002819
+x_10 = 2 --> P_10 = 0.006876
+x_29 = 9 --> P_29 = 0.194488
+
+_____________________________
+The replicate is 50
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.425567
+x_4 = 1 --> P_4 = 0.155148
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.345232
+x_4 = 1 --> P_4 = 0.063851
+x_10 = 2 --> P_10 = 0.073525
+x_29 = 9 --> P_29 = 0.968097
+
+_____________________________
+The replicate is 51
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.879253
+x_4 = 1 --> P_4 = 0.076109
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.430854
+x_4 = 1 --> P_4 = 0.058061
+x_10 = 2 --> P_10 = 0.184197
+x_29 = 9 --> P_29 = 0.452841
+
+_____________________________
+The replicate is 52
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.668367
+x_4 = 1 --> P_4 = 0.275253
+x_10 = 2 --> P_10 = 0.199931
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.915520
+x_4 = 1 --> P_4 = 0.128011
+x_10 = 2 --> P_10 = 0.017612
+x_29 = 9 --> P_29 = 0.688195
+
+_____________________________
+The replicate is 53
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.755701
+x_4 = 1 --> P_4 = 0.140252
+x_10 = 2 --> P_10 = 0.230286
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.944326
+x_4 = 1 --> P_4 = 0.025951
+x_10 = 2 --> P_10 = 0.066046
+x_29 = 9 --> P_29 = 1.280831
+
+_____________________________
+The replicate is 54
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.660015
+x_4 = 1 --> P_4 = 0.378565
+x_10 = 2 --> P_10 = 0.090548
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.289013
+x_4 = 1 --> P_4 = 0.020729
+x_10 = 2 --> P_10 = 0.027709
+x_29 = 9 --> P_29 = 0.100943
+
+_____________________________
+The replicate is 55
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.911076
+x_4 = 1 --> P_4 = 0.038383
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.736097
+x_4 = 1 --> P_4 = 0.022629
+x_10 = 2 --> P_10 = 0.003134
+x_29 = 9 --> P_29 = 0.097439
+
+_____________________________
+The replicate is 56
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.781769
+x_4 = 1 --> P_4 = 0.085267
+x_10 = 2 --> P_10 = 0.057010
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.885948
+x_4 = 1 --> P_4 = 0.024197
+x_10 = 2 --> P_10 = 0.046736
+x_29 = 9 --> P_29 = 0.299126
+
+_____________________________
+The replicate is 57
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.884282
+x_4 = 1 --> P_4 = 0.175247
+x_10 = 2 --> P_10 = 0.289121
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.495201
+x_4 = 1 --> P_4 = 0.016817
+x_10 = 2 --> P_10 = 0.001097
+x_29 = 9 --> P_29 = 0.984988
+
+_____________________________
+The replicate is 58
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.614283
+x_4 = 1 --> P_4 = 0.076945
+x_10 = 2 --> P_10 = 0.623566
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.945688
+x_4 = 1 --> P_4 = 0.051009
+x_10 = 2 --> P_10 = 0.083481
+x_29 = 9 --> P_29 = 0.038657
+
+_____________________________
+The replicate is 59
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.994090
+x_4 = 1 --> P_4 = 0.005314
+x_10 = 2 --> P_10 = 0.295365
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.460546
+x_4 = 1 --> P_4 = 0.273293
+x_10 = 2 --> P_10 = 0.336396
+x_29 = 9 --> P_29 = 0.255344
+
+_____________________________
+The replicate is 60
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.006374
+x_4 = 1 --> P_4 = 0.133166
+x_10 = 2 --> P_10 = 0.551151
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.724397
+x_4 = 1 --> P_4 = 0.058680
+x_10 = 2 --> P_10 = 0.080745
+x_29 = 9 --> P_29 = 0.374451
+
+_____________________________
+The replicate is 61
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.800198
+x_4 = 1 --> P_4 = 0.893815
+x_10 = 2 --> P_10 = 0.044356
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.664134
+x_4 = 1 --> P_4 = 0.032682
+x_10 = 2 --> P_10 = 0.021505
+x_29 = 9 --> P_29 = 0.110007
+
+_____________________________
+The replicate is 62
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.831329
+x_4 = 1 --> P_4 = 0.016106
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.352512
+x_4 = 1 --> P_4 = 0.103107
+x_10 = 2 --> P_10 = 0.043836
+x_29 = 9 --> P_29 = 0.827986
+
+_____________________________
+The replicate is 63
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.759965
+x_4 = 1 --> P_4 = 0.102269
+x_10 = 2 --> P_10 = 0.039896
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.590808
+x_4 = 1 --> P_4 = 0.005863
+x_10 = 2 --> P_10 = 0.055159
+x_29 = 9 --> P_29 = 0.141707
+
+_____________________________
+The replicate is 64
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 2.457428
+x_4 = 1 --> P_4 = 0.209419
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.107007
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.355089
+x_4 = 1 --> P_4 = 0.395655
+x_10 = 2 --> P_10 = 0.236746
+x_29 = 9 --> P_29 = 0.018035
+
+_____________________________
+The replicate is 65
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.154676
+x_4 = 1 --> P_4 = 0.168402
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.269591
+x_4 = 1 --> P_4 = 0.152142
+x_10 = 2 --> P_10 = 0.723729
+x_29 = 9 --> P_29 = 0.538018
+
+_____________________________
+The replicate is 66
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.747908
+x_4 = 1 --> P_4 = 0.014122
+x_10 = 2 --> P_10 = 0.903199
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.294087
+x_4 = 1 --> P_4 = 0.136414
+x_10 = 2 --> P_10 = 0.021293
+x_29 = 9 --> P_29 = 1.679477
+
+_____________________________
+The replicate is 67
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.646624
+x_4 = 1 --> P_4 = 0.874958
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.582551
+x_4 = 1 --> P_4 = 0.012478
+x_10 = 2 --> P_10 = 0.043443
+x_29 = 9 --> P_29 = 0.439050
+
+_____________________________
+The replicate is 68
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.649301
+x_4 = 1 --> P_4 = 0.037436
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.124955
+x_4 = 1 --> P_4 = 0.171505
+x_10 = 2 --> P_10 = 0.186350
+x_29 = 9 --> P_29 = 0.305964
+
+_____________________________
+The replicate is 69
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.244611
+x_4 = 1 --> P_4 = 0.088707
+x_10 = 2 --> P_10 = 0.194785
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.218675
+x_4 = 1 --> P_4 = 0.354944
+x_10 = 2 --> P_10 = 0.275891
+x_29 = 9 --> P_29 = 0.255767
+
+_____________________________
+The replicate is 70
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.449964
+x_4 = 1 --> P_4 = 0.108369
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.527679
+x_4 = 1 --> P_4 = 0.214120
+x_10 = 2 --> P_10 = 0.168682
+x_29 = 9 --> P_29 = 1.140633
+
+_____________________________
+The replicate is 71
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.554600
+x_4 = 1 --> P_4 = 0.058507
+x_10 = 2 --> P_10 = 0.148218
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.626691
+x_4 = 1 --> P_4 = 0.136451
+x_10 = 2 --> P_10 = 0.011753
+x_29 = 9 --> P_29 = 0.616456
+
+_____________________________
+The replicate is 72
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.585268
+x_4 = 1 --> P_4 = 0.195943
+x_10 = 2 --> P_10 = 1.204120
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.615627
+x_4 = 1 --> P_4 = 0.012905
+x_10 = 2 --> P_10 = 0.156843
+x_29 = 9 --> P_29 = 0.185666
+
+_____________________________
+The replicate is 73
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.812455
+x_4 = 1 --> P_4 = 0.186891
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.190346
+x_4 = 1 --> P_4 = 0.046578
+x_10 = 2 --> P_10 = 0.044161
+x_29 = 9 --> P_29 = 1.695050
+
+_____________________________
+The replicate is 74
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.662973
+x_4 = 1 --> P_4 = 0.210796
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.116186
+x_4 = 1 --> P_4 = 0.032942
+x_10 = 2 --> P_10 = 0.015148
+x_29 = 9 --> P_29 = 0.995366
+
+_____________________________
+The replicate is 75
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 2.547140
+x_4 = 1 --> P_4 = 0.440161
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.358144
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.022096
+x_4 = 1 --> P_4 = 0.019173
+x_10 = 2 --> P_10 = 0.074610
+x_29 = 9 --> P_29 = 0.173999
+
+_____________________________
+The replicate is 76
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 2.210813
+x_4 = 1 --> P_4 = 0.185131
+x_10 = 2 --> P_10 = 0.022993
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.858144
+x_4 = 1 --> P_4 = 0.040358
+x_10 = 2 --> P_10 = 0.068809
+x_29 = 9 --> P_29 = 0.155394
+
+_____________________________
+The replicate is 77
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.824238
+x_4 = 1 --> P_4 = 0.009741
+x_10 = 2 --> P_10 = 0.064199
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.232424
+x_4 = 1 --> P_4 = 0.017609
+x_10 = 2 --> P_10 = 0.019762
+x_29 = 9 --> P_29 = 0.566545
+
+_____________________________
+The replicate is 78
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.180870
+x_4 = 1 --> P_4 = 0.806523
+x_10 = 2 --> P_10 = 0.006378
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.684529
+x_4 = 1 --> P_4 = 0.044403
+x_10 = 2 --> P_10 = 0.000782
+x_29 = 9 --> P_29 = 0.465852
+
+_____________________________
+The replicate is 79
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.130489
+x_4 = 1 --> P_4 = 0.275721
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.308266
+x_4 = 1 --> P_4 = 0.000587
+x_10 = 2 --> P_10 = 0.005314
+x_29 = 9 --> P_29 = 0.036710
+
+_____________________________
+The replicate is 80
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.021256
+x_4 = 1 --> P_4 = 0.072481
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.817923
+x_4 = 1 --> P_4 = 0.054786
+x_10 = 2 --> P_10 = 0.046958
+x_29 = 9 --> P_29 = 1.419477
+
+_____________________________
+The replicate is 81
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.768064
+x_4 = 1 --> P_4 = 0.071283
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.275520
+x_4 = 1 --> P_4 = 0.024506
+x_10 = 2 --> P_10 = 0.273520
+x_29 = 9 --> P_29 = 0.091908
+
+_____________________________
+The replicate is 82
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.866990
+x_4 = 1 --> P_4 = 0.533945
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.413906
+x_4 = 1 --> P_4 = 0.221261
+x_10 = 2 --> P_10 = 0.315315
+x_29 = 9 --> P_29 = 0.410612
+
+_____________________________
+The replicate is 83
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.724345
+x_4 = 1 --> P_4 = 0.197638
+x_10 = 2 --> P_10 = 0.039091
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.374310
+x_4 = 1 --> P_4 = 0.026871
+x_10 = 2 --> P_10 = 0.005429
+x_29 = 9 --> P_29 = 0.433045
+
+_____________________________
+The replicate is 84
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.959426
+x_4 = 1 --> P_4 = 0.431201
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.238455
+x_4 = 1 --> P_4 = 0.016331
+x_10 = 2 --> P_10 = 0.000758
+x_29 = 9 --> P_29 = 1.916735
+
+_____________________________
+The replicate is 85
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.000055
+x_4 = 1 --> P_4 = 0.030326
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.386663
+x_4 = 1 --> P_4 = 0.152337
+x_10 = 2 --> P_10 = 0.029763
+x_29 = 9 --> P_29 = 0.724328
+
+_____________________________
+The replicate is 86
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.939250
+x_4 = 1 --> P_4 = 0.105388
+x_10 = 2 --> P_10 = 0.060758
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.451199
+x_4 = 1 --> P_4 = 0.132852
+x_10 = 2 --> P_10 = 0.069306
+x_29 = 9 --> P_29 = 0.071831
+
+_____________________________
+The replicate is 87
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.174006
+x_4 = 1 --> P_4 = 0.077109
+x_10 = 2 --> P_10 = 0.003198
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.886257
+x_4 = 1 --> P_4 = 0.110684
+x_10 = 2 --> P_10 = 0.009760
+x_29 = 9 --> P_29 = 0.039639
+
+_____________________________
+The replicate is 88
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.834870
+x_4 = 1 --> P_4 = 0.056309
+x_10 = 2 --> P_10 = 0.291708
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.579917
+x_4 = 1 --> P_4 = 0.155705
+x_10 = 2 --> P_10 = 0.175137
+x_29 = 9 --> P_29 = 1.304117
+
+_____________________________
+The replicate is 89
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.487385
+x_4 = 1 --> P_4 = 0.289210
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.194960
+x_4 = 1 --> P_4 = 0.021845
+x_10 = 2 --> P_10 = 0.021353
+x_29 = 9 --> P_29 = 0.165418
+
+_____________________________
+The replicate is 90
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.524059
+x_4 = 1 --> P_4 = 0.036061
+x_10 = 2 --> P_10 = 0.145153
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.353196
+x_4 = 1 --> P_4 = 0.077064
+x_10 = 2 --> P_10 = 0.119793
+x_29 = 9 --> P_29 = 0.007847
+
+_____________________________
+The replicate is 91
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.855470
+x_4 = 1 --> P_4 = 0.276156
+x_10 = 2 --> P_10 = 0.343759
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.669498
+x_4 = 1 --> P_4 = 0.019740
+x_10 = 2 --> P_10 = 0.018962
+x_29 = 9 --> P_29 = 0.005341
+
+_____________________________
+The replicate is 92
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.577131
+x_4 = 1 --> P_4 = 0.131815
+x_10 = 2 --> P_10 = 0.043482
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.680788
+x_4 = 1 --> P_4 = 0.011769
+x_10 = 2 --> P_10 = 0.046068
+x_29 = 9 --> P_29 = 0.233294
+
+_____________________________
+The replicate is 93
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.424815
+x_4 = 1 --> P_4 = 0.984981
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.993416
+x_4 = 1 --> P_4 = 0.089965
+x_10 = 2 --> P_10 = 0.027739
+x_29 = 9 --> P_29 = 0.200324
+
+_____________________________
+The replicate is 94
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.067001
+x_4 = 1 --> P_4 = 0.365080
+x_10 = 2 --> P_10 = 1.354119
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.678545
+x_4 = 1 --> P_4 = 0.086560
+x_10 = 2 --> P_10 = 0.058792
+x_29 = 9 --> P_29 = 0.026690
+
+_____________________________
+The replicate is 95
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.338342
+x_4 = 1 --> P_4 = 0.148600
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.749659
+x_4 = 1 --> P_4 = 0.098274
+x_10 = 2 --> P_10 = 0.038946
+x_29 = 9 --> P_29 = 0.109304
+
+_____________________________
+The replicate is 96
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 0.512208
+x_4 = 1 --> P_4 = 0.000000 -- BUMMER -- 
+x_10 = 2 --> P_10 = 0.222322
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.568625
+x_4 = 1 --> P_4 = 0.014303
+x_10 = 2 --> P_10 = 0.030113
+x_29 = 9 --> P_29 = 0.130271
+
+_____________________________
+The replicate is 97
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.169429
+x_4 = 1 --> P_4 = 0.064630
+x_10 = 2 --> P_10 = 0.041946
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.376576
+x_4 = 1 --> P_4 = 0.190495
+x_10 = 2 --> P_10 = 0.011714
+x_29 = 9 --> P_29 = 0.252922
+
+_____________________________
+The replicate is 98
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.393807
+x_4 = 1 --> P_4 = 0.179284
+x_10 = 2 --> P_10 = 0.396119
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 2.047616
+x_4 = 1 --> P_4 = 0.025999
+x_10 = 2 --> P_10 = 0.142683
+x_29 = 9 --> P_29 = 0.330862
+
+_____________________________
+The replicate is 99
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.566910
+x_4 = 1 --> P_4 = 0.779826
+x_10 = 2 --> P_10 = 1.629747
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 1.997622
+x_4 = 1 --> P_4 = 0.051023
+x_10 = 2 --> P_10 = 0.349675
+x_29 = 9 --> P_29 = 0.790900
+
+_____________________________
+The replicate is 100
+_____________________________
+# S =  34
+# PI = 1403
+# D  = -2.275703
+# The Observed Site Freq Spec. is :
+# 22   0   0   1   0   0   0   0   0   2   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   9
+
+Standard Coalescent -- All Topologies are equally likely
+x_1 = 22 --> P_1 = 1.204509
+x_4 = 1 --> P_4 = 0.619145
+x_10 = 2 --> P_10 = 0.000000 -- BUMMER -- 
+x_29 = 9 --> P_29 = 0.000000 -- BUMMER -- 
+
+SFS conditioned Coalescent -- Equivalence Class of Unlabelled Topologies
+x_1 = 22 --> P_1 = 3.049329
+x_4 = 1 --> P_4 = 0.018592
+x_10 = 2 --> P_10 = 0.023402
+x_29 = 9 --> P_29 = 1.269412
+

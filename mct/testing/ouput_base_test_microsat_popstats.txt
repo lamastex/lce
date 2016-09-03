@@ -1,0 +1,481 @@
+basic testing  for microsats 
+This process id is 10401
+
+
+*** PopSingle ***
+theta 40 growth 50
+Pop structure is nsam 5 npops 1
+"1" : 	nsam = 5	size ratio = 1	growth rate = 0
+M  x
+Events
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	18	19	43	37	45	
+	22	17	41	37	46	
+	20	17	43	38	45	
+	20	18	43	36	45	
+	20	18	46	37	45	
+
+(sequences 1)
+
+lo.	0	1	2	3	4
+	14	11	27	19	38	
+	13	10	25	18	38	
+	13	10	25	19	36	
+	12	12	27	18	36	
+	12	10	27	17	39	
+
+(sequences 2)
+
+lo.	0	1	2	3	4
+	23	25	29	25	25	
+	26	29	29	24	26	
+	27	24	27	25	22	
+	24	28	31	24	24	
+	26	31	31	25	22	
+
+
+
+
+Getting population stats
+Sending output to files
+
+Read back in from the files and send to standard output: 
+
+file ../output/MicrosatTestPopSingleStats_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+32.40000	32.60000	32.60000	32.40000	33.20000
+21.80000	20.80000	20.60000	21.00000	21.00000
+25.40000	26.80000	25.00000	26.20000	27.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(26.5333 5.39011 21.8 22.16 23.6 25.4 28.9 31.7 32.4 3)
+	At index 1	(26.7333 5.90028 20.8 21.4 23.8 26.8 29.7 32.02 32.6 3)
+	At index 2	(26.0667 6.07069 20.6 21.04 22.8 25 28.8 31.84 32.6 3)
+	At index 3	(26.5333 5.70731 21 21.52 23.6 26.2 29.3 31.78 32.4 3)
+	At index 4	(27.0667 6.10027 21 21.6 24 27 30.1 32.58 33.2 3)
+
+file ../output/MicrosatTestPopSingleMeans_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+32.40000	32.60000	32.60000	32.40000	33.20000
+21.80000	20.80000	20.60000	21.00000	21.00000
+25.40000	26.80000	25.00000	26.20000	27.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(26.5333 5.39011 21.8 22.16 23.6 25.4 28.9 31.7 32.4 3)
+	At index 1	(26.7333 5.90028 20.8 21.4 23.8 26.8 29.7 32.02 32.6 3)
+	At index 2	(26.0667 6.07069 20.6 21.04 22.8 25 28.8 31.84 32.6 3)
+	At index 3	(26.5333 5.70731 21 21.52 23.6 26.2 29.3 31.78 32.4 3)
+	At index 4	(27.0667 6.10027 21 21.6 24 27 30.1 32.58 33.2 3)
+
+file ../output/MicrosatTestPopSingleCovar_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+135.84000	127.96000	136.36000	131.84000	139.12000	125.04000	130.84000	125.96000	131.88000	138.64000	133.36000	140.68000	129.04000	136.12000	144.56000
+94.96000	97.16000	90.12000	90.00000	104.60000	99.76000	92.32000	91.80000	107.00000	85.84000	85.20000	99.00000	86.40000	99.60000	115.60000
+3.84000	2.08000	0.80000	4.72000	3.60000	3.76000	0.60000	4.84000	5.60000	3.60000	2.00000	3.40000	8.16000	8.80000	12.40000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(78.2133 67.5747 3.84 12.952 49.4 94.96 115.4 131.752 135.84 3)
+	At index 1	(75.7333 65.6184 2.08 11.588 49.62 97.16 112.56 124.88 127.96 3)
+	At index 2	(75.76 68.9114 0.8 9.732 45.46 90.12 113.24 131.736 136.36 3)
+	At index 3	(75.52 64.7852 4.72 13.248 47.36 90 110.92 127.656 131.84 3)
+	At index 4	(82.44 70.4253 3.6 13.7 54.1 104.6 121.86 135.668 139.12 3)
+	At index 5	(76.1867 63.9843 3.76 13.36 51.76 99.76 112.4 122.512 125.04 3)
+	At index 6	(74.5867 66.9064 0.6 9.772 46.46 92.32 111.58 126.988 130.84 3)
+	At index 7	(74.2 62.4486 4.84 13.536 48.32 91.8 108.88 122.544 125.96 3)
+	At index 8	(81.4933 66.8925 5.6 15.74 56.3 107 119.44 129.392 131.88 3)
+	At index 9	(76.0267 68.0527 3.6 11.824 44.72 85.84 112.24 133.36 138.64 3)
+	At index 10	(73.52 66.4543 2 10.32 43.6 85.2 109.28 128.544 133.36 3)
+	At index 11	(81.0267 70.3827 3.4 12.96 51.2 99 119.84 136.512 140.68 3)
+	At index 12	(74.5333 61.3075 8.16 15.984 47.28 86.4 107.72 124.776 129.04 3)
+	At index 13	(81.5067 65.5601 8.8 17.88 54.2 99.6 117.86 132.468 136.12 3)
+	At index 14	(90.8533 69.4684 12.4 22.72 64 115.6 130.08 141.664 144.56 3)
+
+file ../output/MicrosatTestPopSingleDeltaMu_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+
+
+
+
+
+and get descriptive statistics from population stats: 
+
+file ../output/MicrosatTestPopSingleASD_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+
+
+
+
+
+and get descriptive statistics from population stats: 
+
+file ../output/MicrosatTestPopSingleRST_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+
+
+
+
+
+and get descriptive statistics from population stats: 
+
+file ../output/MicrosatTestPopSingleNeiDa_ns_5_nl_5_n_3_th_40.000_g_50.000.txt
+
+
+
+
+
+and get descriptive statistics from population stats: 
+
+
+*** PopIslandThreeSmallest ***
+theta 40 growth 50
+Pop structure is nsam 2 npops 2
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 1
+"2" : 	nsam = 2	size ratio = 1	growth rate = 0
+M  x 1.0 0.0 x
+Events
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	20	27	23	17	43	
+	20	28	27	20	43	
+
+(sequences 1)
+
+lo.	0	1	2	3	4
+	11	42	41	25	35	
+	11	43	45	24	35	
+
+(sequences 2)
+
+lo.	0	1	2	3	4
+	40	49	47	22	31	
+	40	49	45	24	32	
+
+
+
+
+Getting population stats
+expect all population distances to fail
+Runtime error:
+MultiLociMicrosat::averageRepeatSizeWithinPop() :
+empty subpopulation
+Runtime error:
+MultiLociMicrosat::avSquaredDiffRepeatSizeBetweenPairedPopBySite() :
+subpopulation size < 1
+Runtime error:
+MultiLociMicrosat::avSumSqsDiffRepeatSizeWithinPairedPopBySite() :
+subpopulation size < 2
+Runtime error:
+MultiLociMicrosat::alleleSharingBetweenPairedPopBySite() :
+subpopulation size < 1
+Sending output to files
+
+Read back in from the files and send to standard output: 
+
+file ../output/MicrosatTestPopIslandThreeSmallestStats_ns_2_nl_5_n_3_th_40.000_g_50.000.txt
+26.00000	27.60000
+30.80000	31.60000
+37.80000	38.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(31.5333 5.93408 26 26.48 28.4 30.8 34.3 37.1 37.8 3)
+	At index 1	(32.4 5.24595 27.6 28 29.6 31.6 34.8 37.36 38 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestMeans_ns_2_nl_5_n_3_th_40.000_g_50.000.txt
+26.00000	27.60000
+30.80000	31.60000
+37.80000	38.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(31.5333 5.93408 26 26.48 28.4 30.8 34.3 37.1 37.8 3)
+	At index 1	(32.4 5.24595 27.6 28 29.6 31.6 34.8 37.36 38 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestCovar_ns_2_nl_5_n_3_th_40.000_g_50.000.txt
+83.20000	75.60000	70.64000
+134.56000	146.12000	160.64000
+102.16000	90.80000	81.20000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(106.64 25.9714 83.2 85.096 92.68 102.16 118.36 131.32 134.56 3)
+	At index 1	(104.173 37.1134 75.6 77.12 83.2 90.8 118.46 140.588 146.12 3)
+	At index 2	(104.16 49.1973 70.64 71.696 75.92 81.2 120.92 152.696 160.64 3)
+
+
+*** PopIslandThreeSmallest ***
+theta 40 growth 50
+Pop structure is nsam 3 npops 3
+"1" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 2 = 1
+	<- from 3 = 1
+"2" : 	nsam = 1	size ratio = 1	growth rate = 0
+"3" : 	nsam = 1	size ratio = 1	growth rate = 0
+	<- from 2 = 1
+M  x 1.0 1.0 0.0 x 0.0 0.0 1.0 x
+Events
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	24	27	40	14	19	
+	19	28	44	18	28	
+	19	34	43	16	31	
+
+(sequences 1)
+
+lo.	0	1	2	3	4
+	12	41	45	37	16	
+	12	46	48	44	16	
+	16	43	44	38	12	
+
+(sequences 2)
+
+lo.	0	1	2	3	4
+	19	30	13	46	14	
+	46	23	12	45	15	
+	30	20	19	48	11	
+
+
+
+
+Getting population stats
+expect Rst distance to fail
+Runtime error:
+MultiLociMicrosat::avSumSqsDiffRepeatSizeWithinPairedPopBySite() :
+subpopulation size < 2
+Sending output to files
+
+Read back in from the files and send to standard output: 
+
+file ../output/MicrosatTestPopIslandThreeSmallestStats_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+24.80000	27.40000	28.60000
+30.20000	33.20000	30.60000
+24.40000	28.20000	25.60000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(26.4667 3.23934 24.4 24.44 24.6 24.8 27.5 29.66 30.2 3)
+	At index 1	(29.6 3.14325 27.4 27.48 27.8 28.2 30.7 32.7 33.2 3)
+	At index 2	(28.2667 2.51661 25.6 25.9 27.1 28.6 29.6 30.4 30.6 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestMeans_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+24.80000	27.40000	28.60000
+30.20000	33.20000	30.60000
+24.40000	28.20000	25.60000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(26.4667 3.23934 24.4 24.44 24.6 24.8 27.5 29.66 30.2 3)
+	At index 1	(29.6 3.14325 27.4 27.48 27.8 28.2 30.7 32.7 33.2 3)
+	At index 2	(28.2667 2.51661 25.6 25.9 27.1 28.6 29.6 30.4 30.6 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestCovar_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+77.36000	71.68000	72.12000	87.04000	88.56000	98.64000
+182.96000	212.16000	182.48000	248.96000	213.28000	189.44000
+153.04000	111.92000	131.16000	212.56000	156.68000	161.84000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(137.787 54.4274 77.36 84.928 115.2 153.04 168 179.968 182.96 3)
+	At index 1	(131.92 72.344 71.68 75.704 91.8 111.92 162.04 202.136 212.16 3)
+	At index 2	(128.587 55.225 72.12 78.024 101.64 131.16 156.82 177.348 182.48 3)
+	At index 3	(182.853 84.9493 87.04 99.592 149.8 212.56 230.76 245.32 248.96 3)
+	At index 4	(152.84 62.4486 88.56 95.372 122.62 156.68 184.98 207.62 213.28 3)
+	At index 5	(149.973 46.5486 98.64 104.96 130.24 161.84 175.64 186.68 189.44 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestDeltaMu_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+27.80000	46.20000	10.00000
+16.60000	7.60000	18.60000
+156.20000	54.00000	67.80000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(66.8667 77.5673 16.6 17.72 22.2 27.8 92 143.36 156.2 3)
+	At index 1	(35.9333 24.8454 7.6 11.46 26.9 46.2 50.1 53.22 54 3)
+	At index 2	(32.1333 31.1861 10 10.86 14.3 18.6 43.2 62.88 67.8 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestASD_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+27.80000	46.20000	10.00000
+16.60000	7.60000	18.60000
+156.20000	54.00000	67.80000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(66.8667 77.5673 16.6 17.72 22.2 27.8 92 143.36 156.2 3)
+	At index 1	(35.9333 24.8454 7.6 11.46 26.9 46.2 50.1 53.22 54 3)
+	At index 2	(32.1333 31.1861 10 10.86 14.3 18.6 43.2 62.88 67.8 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallestNeiDa_ns_3_nl_5_n_3_th_40.000_g_50.000.txt
+1.00000	1.00000	0.80000
+0.60000	1.00000	1.00000
+1.00000	1.00000	1.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(0.866667 0.23094 0.6 0.64 0.8 1 1 1 1 3)
+	At index 1	(1 0 1 1 1 1 1 1 1 3)
+	At index 2	(0.933333 0.11547 0.8 0.82 0.9 1 1 1 1 3)
+
+
+*** PopIslandThreeSmall ***
+theta 40 growth 50
+Pop structure is nsam 6 npops 3
+"1" : 	nsam = 2	size ratio = 1	growth rate = 0
+	<- from 2 = 1
+	<- from 3 = 1
+"2" : 	nsam = 2	size ratio = 1	growth rate = 0
+"3" : 	nsam = 2	size ratio = 1	growth rate = 0
+	<- from 2 = 1
+M  x 1.0 1.0 0.0 x 0.0 0.0 1.0 x
+Events
+about to use sampler
+The multi-locus microsat set is
+(sequences 0)
+
+lo.	0	1	2	3	4
+	22	27	42	49	10	
+	20	14	42	48	16	
+	21	26	41	48	24	
+	23	28	40	49	25	
+	19	25	37	43	14	
+	19	24	37	45	14	
+
+(sequences 1)
+
+lo.	0	1	2	3	4
+	32	36	12	22	18	
+	30	38	12	25	19	
+	14	41	14	32	30	
+	15	41	13	29	30	
+	16	41	19	34	32	
+	12	42	15	32	33	
+
+(sequences 2)
+
+lo.	0	1	2	3	4
+	35	28	13	32	33	
+	31	27	12	31	34	
+	34	29	21	33	47	
+	31	28	20	33	45	
+	17	27	27	34	36	
+	17	27	22	32	36	
+
+
+
+
+Getting population stats
+Sending output to files
+
+Read back in from the files and send to standard output: 
+
+file ../output/MicrosatTestPopIslandThreeSmallStats_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+30.00000	28.00000	32.00000	33.00000	27.60000	27.80000
+24.00000	24.80000	26.20000	25.60000	28.40000	26.80000
+28.20000	27.00000	32.80000	31.40000	28.20000	26.80000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(27.4 3.07896 24 24.42 26.1 28.2 29.1 29.82 30 3)
+	At index 1	(26.6 1.63707 24.8 25.02 25.9 27 27.5 27.9 28 3)
+	At index 2	(30.3333 3.60185 26.2 26.78 29.1 32 32.4 32.72 32.8 3)
+	At index 3	(30 3.89358 25.6 26.18 28.5 31.4 32.2 32.84 33 3)
+	At index 4	(28.0667 0.416333 27.6 27.66 27.9 28.2 28.3 28.38 28.4 3)
+	At index 5	(27.1333 0.57735 26.8 26.8 26.8 26.8 27.3 27.7 27.8 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallMeans_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+30.00000	28.00000	32.00000	33.00000	27.60000	27.80000
+24.00000	24.80000	26.20000	25.60000	28.40000	26.80000
+28.20000	27.00000	32.80000	31.40000	28.20000	26.80000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(27.4 3.07896 24 24.42 26.1 28.2 29.1 29.82 30 3)
+	At index 1	(26.6 1.63707 24.8 25.02 25.9 27 27.5 27.9 28 3)
+	At index 2	(30.3333 3.60185 26.2 26.78 29.1 32 32.4 32.72 32.8 3)
+	At index 3	(30 3.89358 25.6 26.18 28.5 31.4 32.2 32.84 33 3)
+	At index 4	(28.0667 0.416333 27.6 27.66 27.9 28.2 28.3 28.38 28.4 3)
+	At index 5	(27.1333 0.57735 26.8 26.8 26.8 26.8 27.3 27.7 27.8 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallCovar_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+195.60000	178.80000	135.60000	128.60000	150.80000	159.00000	200.00000	142.80000	132.80000	141.60000	152.40000	111.60000	104.60000	110.00000	117.60000	98.80000	104.00000	111.40000	118.24000	124.92000	132.56000
+78.40000	77.60000	38.40000	43.60000	26.40000	31.60000	79.76000	53.44000	56.92000	40.48000	47.96000	112.96000	109.48000	99.72000	120.64000	107.84000	95.76000	116.92000	89.04000	107.48000	130.96000
+62.96000	60.80000	51.44000	48.52000	0.36000	14.04000	61.20000	56.40000	54.20000	10.20000	23.60000	71.36000	68.08000	23.44000	35.16000	65.84000	27.52000	38.28000	44.56000	43.44000	46.16000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(112.32 72.5346 62.96 64.504 70.68 78.4 137 183.88 195.6 3)
+	At index 1	(105.733 63.8327 60.8 62.48 69.2 77.6 128.2 168.68 178.8 3)
+	At index 2	(75.1467 52.7585 38.4 39.704 44.92 51.44 93.52 127.184 135.6 3)
+	At index 3	(73.5733 47.7179 43.6 44.092 46.06 48.52 88.56 120.592 128.6 3)
+	At index 4	(59.1867 80.4007 0.36 2.964 13.38 26.4 88.6 138.36 150.8 3)
+	At index 5	(68.2133 79.1123 14.04 15.796 22.82 31.6 95.3 146.26 159 3)
+	At index 6	(113.653 75.352 61.2 63.056 70.48 79.76 139.88 187.976 200 3)
+	At index 7	(84.2133 50.7591 53.44 53.736 54.92 56.4 99.6 134.16 142.8 3)
+	At index 8	(81.3067 44.6153 54.2 54.472 55.56 56.92 94.86 125.212 132.8 3)
+	At index 9	(64.0933 68.809 10.2 13.228 25.34 40.48 91.04 131.488 141.6 3)
+	At index 10	(74.6533 68.4234 23.6 26.036 35.78 47.96 100.18 141.956 152.4 3)
+	At index 11	(98.64 23.635 71.36 75.384 91.48 111.6 112.28 112.824 112.96 3)
+	At index 12	(94.0533 22.6255 68.08 71.732 86.34 104.6 107.04 108.992 109.48 3)
+	At index 13	(77.72 47.288 23.44 31.068 61.58 99.72 104.86 108.972 110 3)
+	At index 14	(91.1333 48.4982 35.16 43.404 76.38 117.6 119.12 120.336 120.64 3)
+	At index 15	(90.8267 22.1061 65.84 69.136 82.32 98.8 103.32 106.936 107.84 3)
+	At index 16	(75.76 41.9797 27.52 34.344 61.64 95.76 99.88 103.176 104 3)
+	At index 17	(88.8667 43.8962 38.28 45.592 74.84 111.4 114.16 116.368 116.92 3)
+	At index 18	(83.9467 37.1031 44.56 49.008 66.8 89.04 103.64 115.32 118.24 3)
+	At index 19	(91.9467 42.9035 43.44 49.844 75.46 107.48 116.2 123.176 124.92 3)
+	At index 20	(103.227 49.4277 46.16 54.64 88.56 130.96 131.76 132.4 132.56 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallDeltaMu_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+142.20000	53.00000	126.40000
+377.40000	496.40000	20.20000
+179.00000	327.00000	286.80000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(232.867 126.515 142.2 145.88 160.6 179 278.2 357.56 377.4 3)
+	At index 1	(292.133 223.747 53 80.4 190 327 411.7 479.46 496.4 3)
+	At index 2	(144.467 134.215 20.2 30.82 73.3 126.4 206.6 270.76 286.8 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallASD_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+46.60000	24.00000	32.40000
+95.80000	126.90000	7.50000
+46.50000	84.20000	73.90000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(62.9667 28.4345 46.5 46.51 46.55 46.6 71.2 90.88 95.8 3)
+	At index 1	(78.3667 51.6974 24 30.02 54.1 84.2 105.55 122.63 126.9 3)
+	At index 2	(37.9333 33.5441 7.5 9.99 19.95 32.4 53.15 69.75 73.9 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallRST_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+0.42498	0.07194	0.92771
+0.95527	0.93524	0.26131
+0.89119	0.91518	0.91327
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(0.757147 0.289445 0.424978 0.4716 0.658085 0.891192 0.923231 0.948862 0.95527 3)
+	At index 1	(0.640785 0.492734 0.0719424 0.156266 0.493559 0.915176 0.925206 0.933229 0.935235 3)
+	At index 2	(0.700763 0.380649 0.261307 0.326503 0.587289 0.913272 0.920491 0.926267 0.927711 3)
+
+file ../output/MicrosatTestPopIslandThreeSmallNeiDa_ns_6_nl_5_n_3_th_40.000_g_50.000.txt
+1.00000	1.00000	1.00000
+1.00000	1.00000	0.90000
+0.80000	0.75858	1.00000
+
+
+and get descriptive statistics from population stats: 
+	At index 0	(0.933333 0.11547 0.8 0.82 0.9 1 1 1 1 3)
+	At index 1	(0.919526 0.139385 0.758579 0.782721 0.879289 1 1 1 1 3)
+	At index 2	(0.966667 0.057735 0.9 0.91 0.95 1 1 1 1 3)
+
+
+End of testing
+

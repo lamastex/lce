@@ -1,0 +1,455 @@
+
+
+Constructing an empty population called pop
+pop output and mig check
+
+pop now is 
+nsam 0 npops 0
+pop.migrationMatrixToString() is 
+
+
+pop.doMigCheck()
+Try to access subpop characteristics that are out of range
+
+Testing accessor index ranges, index = 0
+invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(index)
+std::invalid_argument :
+PopulationStructure::getSubNsamAt(int) : index
+popCopy.getSizeRatioAt
+std::invalid_argument :
+PopulationStructure::getSizeRatioAt(int) : index
+popCopy.getGrowthRateAt
+std::invalid_argument :
+PopulationStructure::getGrowthRateAt(int) : index
+popCopy.getLabelAt
+std::invalid_argument :
+PopulationStructure::getLabelAt(int) : index
+popCopy.setGrowthRateAt
+std::invalid_argument :
+PopulationStructure::setGrowthRateAt(int, double) : into
+popCopy.erase
+std::invalid_argument :
+PopulationStructure::erase(int) : orderErase
+popCopy.relabel
+std::invalid_argument :
+PopulationStructure::relabel(int, const std::string&) : order
+
+
+Adding subpopulations with invalid parameters:
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = -1, size ratio = 0 and growth rate = 0
+nsam = -1 is illegal  and size ratio = 0 is illegal
+Try constructor pop(_sn = -1)
+std::invalid_argument :
+PopulationStructure::PopulationStructure(int) : _sn < 0)
+Make empty pop and try add(_sn = -1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Make empty pop and try add(_sn = -1, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Make empty pop and try add(_sn = -1, _sr = 0, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Just illegal nsam: make empty pop and try add(_sn = -1, _sr2 = 1, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Just illegal size ratio: make empty pop and try add(_sn = 1, _sr = 0, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sr <= 0.0)
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = 0, size ratio = 0 and growth rate = 0
+nsam = 0 is legal  and size ratio = 0 is illegal
+Try constructor pop(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0, _gr = 0)
+successful
+Make empty pop and try add(_sn = 0, _sr = 0, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sr <= 0.0)
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = 0, size ratio = -0.1 and growth rate = 0
+nsam = 0 is legal  and size ratio = -0.1 is illegal
+Try constructor pop(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0, _gr = 0)
+successful
+Make empty pop and try add(_sn = 0, _sr = -0.1, _gr = 0)
+std::invalid_argument :
+PopulationStructure::add(...) : _sr <= 0.0)
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = 0, size ratio = 0 and growth rate = -0.1
+nsam = 0 is legal  and size ratio = 0 is illegal
+Try constructor pop(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0, _gr = -0.1)
+successful
+Make empty pop and try add(_sn = 0, _sr = 0, _gr = -0.1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sr <= 0.0)
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = -1, size ratio = -0.1 and growth rate = -0.1
+nsam = -1 is illegal  and size ratio = -0.1 is illegal
+Try constructor pop(_sn = -1)
+std::invalid_argument :
+PopulationStructure::PopulationStructure(int) : _sn < 0)
+Make empty pop and try add(_sn = -1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Make empty pop and try add(_sn = -1, _gr = -0.1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Make empty pop and try add(_sn = -1, _sr = -0.1, _gr = -0.1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Just illegal nsam: make empty pop and try add(_sn = -1, _sr2 = 1, _gr = -0.1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sn < 0)
+Just illegal size ratio: make empty pop and try add(_sn = 1, _sr = -0.1, _gr = -0.1)
+std::invalid_argument :
+PopulationStructure::add(...) : _sr <= 0.0)
+
+Test PopulationStructure(...) constructors and PopulationStructure::add(...) with nsam = 0, size ratio = 0.1 and growth rate = 0.1
+nsam = 0 is legal  and size ratio = 0.1 is legal
+Try constructor pop(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0)
+successful
+Make empty pop and try add(_sn = 0, _gr = 0.1)
+successful
+Make empty pop and try add(_sn = 0, _sr = 0.1, _gr = 0.1)
+successful
+
+Adding 4 subpopulations:
+
+After adding subpopulations, pop output and mig check:
+
+pop now is 
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+pop.migrationMatrixToString() is 
+SubPop	0	1	2	3
+0	n/a	0.0	0.0	0.0
+1	0.0	n/a	0.0	0.0
+2	0.0	0.0	n/a	0.0
+3	0.0	0.0	0.0	n/a
+
+
+pop.doMigCheck()
+std::logic_error :
+Failed PopulationStructure::doMigCheck() :Subpops (	0	1	2	) do not communicate with subpops (	3	)
+Subpops (	0	1	3	) do not communicate with subpops (	2	)
+Subpops (	0	2	3	) do not communicate with subpops (	1	)
+
+
+
+Try to access subpop characteristics with indices that are in range
+
+Testing accessor index ranges, index = 0
+No invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(index)
+successful
+popCopy.getSizeRatioAt
+successful
+popCopy.getGrowthRateAt
+successful
+popCopy.getLabelAt
+successful
+popCopy.setGrowthRateAt
+successful
+popCopy.erase
+successful
+popCopy.relabel
+successful
+popCopy.getMigration(0, 3)
+successful
+popCopy.setMigration(0, 3, 5)
+successful
+popCopy.getMigration(3, 0)
+successful
+popCopy.setMigration(3, 0, 5)
+successful
+
+Testing accessor index ranges, index = 3
+No invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(index)
+successful
+popCopy.getSizeRatioAt
+successful
+popCopy.getGrowthRateAt
+successful
+popCopy.getLabelAt
+successful
+popCopy.setGrowthRateAt
+successful
+popCopy.erase
+successful
+popCopy.relabel
+successful
+popCopy.getMigration(3, 2)
+successful
+popCopy.setMigration(3, 2, 5)
+successful
+popCopy.getMigration(2, 3)
+successful
+popCopy.setMigration(2, 3, 5)
+successful
+
+
+Try to access subpop characteristics with indices that are out of range
+
+Testing accessor index ranges, index = -1
+invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(index)
+std::invalid_argument :
+PopulationStructure::getSubNsamAt(int) : index
+popCopy.getSizeRatioAt
+std::invalid_argument :
+PopulationStructure::getSizeRatioAt(int) : index
+popCopy.getGrowthRateAt
+std::invalid_argument :
+PopulationStructure::getGrowthRateAt(int) : index
+popCopy.getLabelAt
+std::invalid_argument :
+PopulationStructure::getLabelAt(int) : index
+popCopy.setGrowthRateAt
+std::invalid_argument :
+PopulationStructure::setGrowthRateAt(int, double) : into
+popCopy.erase
+std::invalid_argument :
+PopulationStructure::erase(int) : orderErase
+popCopy.relabel
+std::invalid_argument :
+PopulationStructure::relabel(int, const std::string&) : order
+popCopy.getMigration(-1, 3)
+std::invalid_argument :
+PopulationStructure::getMigration(int, int) : into
+popCopy.setMigration(-1, 3, 5)
+std::invalid_argument :
+PopulationStructure::setMigration(int, int, double : into
+popCopy.getMigration(3, -1)
+std::invalid_argument :
+PopulationStructure::getMigration(int, int) : from
+popCopy.setMigration(3, -1, 5)
+std::invalid_argument :
+PopulationStructure::setMigration(int, int, double : from
+
+Testing accessor index ranges, index = 4
+invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(index)
+std::invalid_argument :
+PopulationStructure::getSubNsamAt(int) : index
+popCopy.getSizeRatioAt
+std::invalid_argument :
+PopulationStructure::getSizeRatioAt(int) : index
+popCopy.getGrowthRateAt
+std::invalid_argument :
+PopulationStructure::getGrowthRateAt(int) : index
+popCopy.getLabelAt
+std::invalid_argument :
+PopulationStructure::getLabelAt(int) : index
+popCopy.setGrowthRateAt
+std::invalid_argument :
+PopulationStructure::setGrowthRateAt(int, double) : into
+popCopy.erase
+std::invalid_argument :
+PopulationStructure::erase(int) : orderErase
+popCopy.relabel
+std::invalid_argument :
+PopulationStructure::relabel(int, const std::string&) : order
+popCopy.getMigration(4, 3)
+std::invalid_argument :
+PopulationStructure::getMigration(int, int) : into
+popCopy.setMigration(4, 3, 5)
+std::invalid_argument :
+PopulationStructure::setMigration(int, int, double : into
+popCopy.getMigration(3, 4)
+std::invalid_argument :
+PopulationStructure::getMigration(int, int) : from
+popCopy.setMigration(3, 4, 5)
+std::invalid_argument :
+PopulationStructure::setMigration(int, int, double : from
+
+
+Try to access subpop characteristics with labels that exist
+
+Testing accessors with label, label = "3"
+No invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(label)
+successful
+popCopy.getSizeRatioAt
+successful
+popCopy.getGrowthRateAt
+successful
+popCopy.setGrowthRateAt
+successful
+popCopy.erase
+successful
+popCopy.relabel
+successful
+popCopy.getMigration("3", "1")
+successful
+popCopy.setMigration("3", "1", 5)
+successful
+popCopy.getMigration("1", "3")
+successful
+popCopy.setMigration("1", "3", 5)
+successful
+
+
+Try to access subpop characteristics with labels that do not exist
+
+Testing accessors with label, label = "3a"
+invalid_argument exceptions are expected here
+popCopy.getSubNsamAt(label)
+std::invalid_argument :
+PopulationStructure::getSubNsamAt(const std::string&) : 3a
+popCopy.getSizeRatioAt
+std::invalid_argument :
+PopulationStructure::getSizeRatioAt(int) : 3a
+popCopy.getGrowthRateAt
+std::invalid_argument :
+PopulationStructure::getGrowthRateAt(int) : 3a
+popCopy.setGrowthRateAt
+std::invalid_argument :
+PopulationStructure::setGrowthRateAt(const std::string&, double) : 3a
+popCopy.erase
+std::invalid_argument :
+PopulationStructure::erase(const std::string&) : 3a
+popCopy.relabel
+std::invalid_argument :
+PopulationStructure::relabel(const std::string&, const std::string&) : 3a
+popCopy.getMigration("3a", "1")
+std::invalid_argument :
+PopulationStructure::getMigration(const std::string&, const std::string& : 3a
+popCopy.setMigration("3a", "1", 5)
+std::invalid_argument :
+PopulationStructure::setMigration(const std::string&, const std::string&, double : 3a
+popCopy.getMigration("1", "3a")
+std::invalid_argument :
+PopulationStructure::getMigration(const std::string&, const std::string& : 3a
+popCopy.setMigration("1", "3a", 5)
+std::invalid_argument :
+PopulationStructure::setMigration(const std::string&, const std::string&, double : 3a
+
+
+Try to set properties to invalid values
+
+Test PopulationStructure::SetSubNsamAt(...) and setSizeRatioAt and setGrowthRateAt with nsam = -1, size ratio = 0 and growth rate = 0
+nsam = -1 is illegal  and size ratio = 0 is illegal
+growth rate is legal
+Try setSubNsamAt(3, _sn = -1)
+std::invalid_argument :
+PopulationStructure::setSubNsamAt(int, double) : _sn < 0
+Try setSubNsamAt("3", _sn = -1)
+std::invalid_argument :
+PopulationStructure::setSubNsamAt(const std::string&, double) : _sn < 0
+Try setSizeRatioAt(3, _sr = 0)
+std::invalid_argument :
+PopulationStructure::setSizeRatioAt(int, double) : _sr <= 0.0
+Try setSizeRatioAt("4", _sr = 0)
+std::invalid_argument :
+PopulationStructure::setSizeRatioAt(const std::string&, double) : _sr <= 0.0
+Try setGrowthRateAt(3, _gr = 0)
+successful
+Try setGrowthRateAt("4", _gr = 0)
+successful
+
+Test PopulationStructure::SetSubNsamAt(...) and setSizeRatioAt and setGrowthRateAt with nsam = 0, size ratio = -0.01 and growth rate = -0.01
+nsam = 0 is legal  and size ratio = -0.01 is illegal
+growth rate is legal
+Try setSubNsamAt(3, _sn = 0)
+successful
+Try setSubNsamAt("3", _sn = 0)
+successful
+Try setSizeRatioAt(3, _sr = -0.01)
+std::invalid_argument :
+PopulationStructure::setSizeRatioAt(int, double) : _sr <= 0.0
+Try setSizeRatioAt("4", _sr = -0.01)
+std::invalid_argument :
+PopulationStructure::setSizeRatioAt(const std::string&, double) : _sr <= 0.0
+Try setGrowthRateAt(3, _gr = -0.01)
+successful
+Try setGrowthRateAt("4", _gr = -0.01)
+successful
+
+
+Try relabelling tests with a population with nSubPop = 1
+Try to relabel index 0 with label "1" to "1"
+No invalid_argument exceptions are expected here
+Using relabel(0, "1")
+successful
+Using relabel("0", "1")
+successful
+Using relabel(newlabels) where newlabels is 
+1, 
+No invalid_argument exceptions are expected here
+successful
+Using relabel(newlabels) where newlabels is 
+1, 
+No invalid_argument exceptions are expected here
+successful
+
+
+Try relabelling tests with a pop which has nSubPop = 4
+Try to relabel index 3 with label "4" to "3"
+invalid_argument exceptions are expected here
+Using relabel(3, "3")
+std::invalid_argument :
+PopulationStructure::relabel(int, const std::string&) : 3
+Using relabel("3", "3")
+std::invalid_argument :
+PopulationStructure::relabel(const std::string&, const std::string&) : 3
+Try to relabel index 0 with label "1" to "1"
+No invalid_argument exceptions are expected here
+Using relabel(0, "1")
+successful
+Using relabel("0", "1")
+successful
+Using relabel(newlabels) where newlabels is 
+1, 4, 2, 3, 
+No invalid_argument exceptions are expected here
+successful
+Using relabel(newlabels) where newlabels is 
+4, 2, 3, 4, 
+an invalid_argument exceptions is expected here
+std::invalid_argument :
+PopulationStructure::relabel(const std::vector < std::string >&) : newLabels
+
+
+Test reorder and erase with eList state
+Should be able to reorder and erase when eList is empty: no runtime_error exceptions expected
+Using resetOrdering when eListEmpty = 1
+successful
+Using erase(int orderErase = 2) when eListEmpty = 1
+successful
+Using erase(string label = "4") when eListEmpty = 1
+successful
+Add an event to the pop's event list
+Should not be able to reorder and erase when eList is not empty: runtime_errors exceptions expected
+Using resetOrdering when eListEmpty = 0
+std::runtime_error :
+PopulationStructure::resetOrdering(const std::vector < std::string >&) : Event list is not empty
+Using erase(int orderErase = 2) when eListEmpty = 0
+std::runtime_error :
+PopulationStructure::erase(int) : Event list is not empty
+Using erase(string label = "4") when eListEmpty = 0
+std::runtime_error :
+PopulationStructure::erase(const std::string&) : Event list is not empty
+
+
+End of testing
+
+

@@ -1,0 +1,109 @@
+
+
+Test hudson_ms::HudsonMSRecombParams
+
+rho = -0.1 nsites = 2
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _rho < 0.0
+
+rho = 0.1 nsites = 1
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _nsites < 2
+
+rho = 0 nsites = 1
+
+rho = 0.1 nsites = 2
+
+rho = 0 nsites = 2 cp  -0.1 ctl = 0
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _conversion_parameter < 0.0
+
+rho = 0 nsites = 2 cp  0 ctl = -0.1
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _conversion_track_len < 0.0
+
+rho = 0 nsites = 2 cp  0.1 ctl = 0
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _conversion_parameter > 0.0 and _conversion_track_len == 0.0
+
+rho = 0 nsites = 1 cp  0.1 ctl = 0.1
+invalid_argument:
+HudsonMSRecombParams::HudsonMSRecombParams(...) : _nsites < 2
+
+rho = 0 nsites = 2 cp  0 ctl = 0
+
+rho = 0 nsites = 2 cp  0.1 ctl = 0.1
+
+
+Test hudson_ms::HudsonMSSegSiteParams
+
+theta = -0.1segnsitesin = 0 mfreq 1
+invalid_argument:
+HudsonMSSegSiteParams::HudsonMSSegSiteParams(...) : _theta < 0.0
+
+theta = 0segnsitesin = -1 mfreq 1
+invalid_argument:
+HudsonMSSegSiteParams::HudsonMSSegSiteParams(...) : _segsitesin < 0
+
+theta = 0segnsitesin = 1 mfreq 0
+invalid_argument:
+HudsonMSSegSiteParams::HudsonMSSegSiteParams(...) : _mfreq < 1
+
+
+Test hudson_ms::HudsonMSArgFactory
+
+
+Empty pop pointer
+invalid_argument:
+HudsonMSArgFactory::HudsonMSArgFactory(...) : pop empty
+
+
+Default constructed pop pointer: npop = 0, nsam = 0
+invalid_argument:
+HudsonMSArgFactory::HudsonMSArgFactory(...) : nsam from pop < 1
+
+
+Pop pointer with npop = 1, nsam = 0
+invalid_argument:
+HudsonMSArgFactory::HudsonMSArgFactory(...) : nsam from pop < 1
+
+
+Empty prng pointer
+invalid_argument:
+HudsonMSArgFactory::HudsonMSArgFactory(...) : _rr empty
+
+
+Test hudson_ms::HudsonMSArg
+
+
+nsam < 1 in arg constructor
+invalid_argument:
+HudsonMSArg::HudsonMSArg(...) : _nsam < 1
+
+
+Test hudson_ms::HudsonMSSegSitesFactory
+
+
+Empty prng pointer
+invalid_argument:
+HudsonMSSegSitesFactory::HudsonMSSegSitesFactory(...) : _rr empty
+
+
+Empty arg pointer
+invalid_argument:
+HudsonMSSegSitesFactory::makeSegSites(...) : _arg_ptr empty
+
+
+nsites < 2
+invalid_argument:
+HudsonMSSegSitesFactory::makeSegSites(...) : nsites in arg < 2
+
+
+mreq > nsam/2
+invalid_argument:
+HudsonMSSegSitesFactory::makeSegSites(...) : ssParams.getMfreq() > nsam/2
+
+
+end of test 
+
+

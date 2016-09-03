@@ -1,0 +1,339 @@
+
+
+Test new population structure code: constructors 
+
+
+
+Constructing an empty population
+pop.empty() = 1
+pop.nSubPops() = 0
+pop.totalNsam() = 0
+pop.eListEmpty() = 1
+pop.toString() is
+nsam 0 npops 0
+
+
+Constructing a population with one subpopulation, nsam = 0
+pop.empty() = 0
+pop.nSubPops() = 1
+pop.totalNsam() = 0
+pop.eListEmpty() = 1
+pop.toString() is
+nsam 0 npops 1
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+M  x
+Events
+
+
+Constructing a population with one subpopulation, nsam = 1
+pop.empty() = 0
+pop.nSubPops() = 1
+pop.totalNsam() = 1
+pop.eListEmpty() = 1
+pop.toString() is
+nsam 1 npops 1
+"1" : 	nsam = 1	size ratio = 1	growth rate = 0
+M  x
+Events
+
+
+Constructing an empty population called pop
+
+Adding subpopulations:
+With pop.add(nsam) with nsam = 0
+With pop.add(nsam) with nsam = 1
+with pop.add(nsam, sizeRatio, growthRate) with nsam = 2, sizeRatio = 0.5, growthRate = 10
+With pop.add(nsam, growthRate) with nsam = 3, growthRate = 3.5
+
+After adding subpopulations:
+pop.empty() = 0
+pop.nSubPops() = 4
+pop.totalNsam() = 6
+pop.eListEmpty() = 1
+pop.toString() is
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 0
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 10
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3.5
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Setting growth rates:
+pop.setGrowthRateAt(0, 0)
+pop.setGrowthRateAt(1, 1)
+pop.setGrowthRateAt(2, 2)
+pop.setGrowthRateAt(3, 3)
+
+After setting growth rates:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+
+Copy constructor: PopulationStructure popCopy(pop) :
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Change all growth rates in popCopy: popCopy.setAllGrowthRates(10.4)
+Now we have popCopy as:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 10.4
+"2" : 	nsam = 1	size ratio = 1	growth rate = 10.4
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 10.4
+"4" : 	nsam = 3	size ratio = 1	growth rate = 10.4
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+and pop as:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+
+Assignment: PopulationStructure popAssign = pop :
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Set all inter-subpop migration parameters in popAssign: popAssign.setMigrationMatrix(5)
+Now we have popAssign as:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+	<- from 3 = 5
+	<- from 4 = 5
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+	<- from 1 = 5
+	<- from 3 = 5
+	<- from 4 = 5
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 4 = 5
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 3 = 5
+M  x 5.0 5.0 5.0 5.0 x 5.0 5.0 5.0 5.0 x 5.0 5.0 5.0 5.0 x
+Events
+
+
+std::swap(popAssign, popCopy)
+Now we have popAssign as:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 10.4
+"2" : 	nsam = 1	size ratio = 1	growth rate = 10.4
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 10.4
+"4" : 	nsam = 3	size ratio = 1	growth rate = 10.4
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+and popCopy as:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+	<- from 3 = 5
+	<- from 4 = 5
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+	<- from 1 = 5
+	<- from 3 = 5
+	<- from 4 = 5
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 4 = 5
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 3 = 5
+M  x 5.0 5.0 5.0 5.0 x 5.0 5.0 5.0 5.0 x 5.0 5.0 5.0 5.0 x
+Events
+
+Test referring to subpops by order and by label
+Test with index = 0, label = "1"
+getSubNsamAt(int index) = 0
+nsam1 += 3 = 3 and setSubNsamAt(order, nsam1)
+getSubNsamAt(label) = 3
+nsam2 -= 0.5 = 0 and setSubNsamAt(label, nsam2)
+getSubNsamAt(const std::string& label) = 0
+getSizeRatioAt(int index) = 1
+sr1 += 0.5 = 1.5 and setSizeRatioAt(order, sr1)
+getSizeRatioAt(label) = 1.5
+sr2 -= 0.5 = 1 and setSizeRatioAt(label, sr2)
+getSizeRatioAt(const std::string& label) = 1
+getGrowthRateAt(order) = 0
+gr1 += 10 = 10 and setGrowthRateAt(order, gr1)
+getGrowthRateAt(label) = 10
+gr2 -= 10 = 0 and setGrowthRateAt(label, gr2)
+getGrowthRateAt(const std::string& label) = 0
+Test with index = 1, label = "2"
+getSubNsamAt(int index) = 1
+nsam1 += 3 = 4 and setSubNsamAt(order, nsam1)
+getSubNsamAt(label) = 4
+nsam2 -= 0.5 = 1 and setSubNsamAt(label, nsam2)
+getSubNsamAt(const std::string& label) = 1
+getSizeRatioAt(int index) = 1
+sr1 += 0.5 = 1.5 and setSizeRatioAt(order, sr1)
+getSizeRatioAt(label) = 1.5
+sr2 -= 0.5 = 1 and setSizeRatioAt(label, sr2)
+getSizeRatioAt(const std::string& label) = 1
+getGrowthRateAt(order) = 1
+gr1 += 10 = 11 and setGrowthRateAt(order, gr1)
+getGrowthRateAt(label) = 11
+gr2 -= 10 = 1 and setGrowthRateAt(label, gr2)
+getGrowthRateAt(const std::string& label) = 1
+Test with index = 2, label = "3"
+getSubNsamAt(int index) = 2
+nsam1 += 3 = 5 and setSubNsamAt(order, nsam1)
+getSubNsamAt(label) = 5
+nsam2 -= 0.5 = 2 and setSubNsamAt(label, nsam2)
+getSubNsamAt(const std::string& label) = 2
+getSizeRatioAt(int index) = 0.5
+sr1 += 0.5 = 1 and setSizeRatioAt(order, sr1)
+getSizeRatioAt(label) = 1
+sr2 -= 0.5 = 0.5 and setSizeRatioAt(label, sr2)
+getSizeRatioAt(const std::string& label) = 0.5
+getGrowthRateAt(order) = 2
+gr1 += 10 = 12 and setGrowthRateAt(order, gr1)
+getGrowthRateAt(label) = 12
+gr2 -= 10 = 2 and setGrowthRateAt(label, gr2)
+getGrowthRateAt(const std::string& label) = 2
+Test with index = 3, label = "4"
+getSubNsamAt(int index) = 3
+nsam1 += 3 = 6 and setSubNsamAt(order, nsam1)
+getSubNsamAt(label) = 6
+nsam2 -= 0.5 = 3 and setSubNsamAt(label, nsam2)
+getSubNsamAt(const std::string& label) = 3
+getSizeRatioAt(int index) = 1
+sr1 += 0.5 = 1.5 and setSizeRatioAt(order, sr1)
+getSizeRatioAt(label) = 1.5
+sr2 -= 0.5 = 1 and setSizeRatioAt(label, sr2)
+getSizeRatioAt(const std::string& label) = 1
+getGrowthRateAt(order) = 3
+gr1 += 10 = 13 and setGrowthRateAt(order, gr1)
+getGrowthRateAt(label) = 13
+gr2 -= 10 = 3 and setGrowthRateAt(label, gr2)
+getGrowthRateAt(const std::string& label) = 3
+
+Test getting and setting migration parameters with PopCopy
+Test with order1 = 1, label1 = "2"
+and order2 = 2, label2 = "3"
+m1 = pop.getMigration(order1, order2) = 5
+m1 *= 2 = 10
+pop.setMigration(order1, order2, m1)
+m2 = pop.getMigration(label1, label2) = 10
+Test with order1 = 2, label1 = "3"
+and order2 = 0, label2 = "1"
+m1 = pop.getMigration(label1, label2) = 5
+m1 /= 2 = 2.5
+pop.setMigration(label1, label2, m1)
+m2 = pop.getMigration(order1, order2) = 2.5
+Test with order1 = 1, label1 = "2"
+and order2 = 0, label2 = "1"
+m1 = pop.getMigration(order1, order2) = 5
+m1 *= 4 = 20
+pop.setMigration(label1, label2, m1)
+m2 = pop.getMigration(order1, order2) = 20
+Test with order1 = 0, label1 = "1"
+and order2 = 1, label2 = "2"
+m1 = pop.getMigration(label1, label2) = 5
+m1 /= 3 = 1.66667
+pop.setMigration(order1, order2, m1)
+m2 = pop.getMigration(label1, label2) = 1.66667
+
+popCopy now is:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+	<- from 3 = 1.66667
+	<- from 4 = 5
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+	<- from 1 = 20
+	<- from 3 = 10
+	<- from 4 = 5
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+	<- from 1 = 2.5
+	<- from 2 = 5
+	<- from 4 = 5
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 3 = 5
+M  x 5.0000000000 1.6666666667 5.0000000000 20.0000000000 x 10.0000000000 5.0000000000 2.5000000000 5.0000000000 x 5.0000000000 5.0000000000 5.0000000000 5.0000000000 x
+Events
+
+Get full migration matrix from popCopy and give it to pop:
+vector < vector < double > > mm = popCopy.makeMigration_matrix();
+pop.setMigrationMatrix(mm);
+pop now is:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+	<- from 3 = 1.66667
+	<- from 4 = 5
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+	<- from 1 = 20
+	<- from 3 = 10
+	<- from 4 = 5
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+	<- from 1 = 2.5
+	<- from 2 = 5
+	<- from 4 = 5
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 3 = 5
+M  x 5.0000000000 1.6666666667 5.0000000000 20.0000000000 x 10.0000000000 5.0000000000 2.5000000000 5.0000000000 x 5.0000000000 5.0000000000 5.0000000000 5.0000000000 x
+Events
+
+popAssign is currently:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 10.4
+"2" : 	nsam = 1	size ratio = 1	growth rate = 10.4
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 10.4
+"4" : 	nsam = 3	size ratio = 1	growth rate = 10.4
+M  x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x 0.0 0.0 0.0 0.0 x
+Events
+
+Assign PopAssign = pop
+popAssign now is:
+nsam 6 npops 4
+"1" : 	nsam = 0	size ratio = 1	growth rate = 0
+	<- from 2 = 5
+	<- from 3 = 1.66667
+	<- from 4 = 5
+"2" : 	nsam = 1	size ratio = 1	growth rate = 1
+	<- from 1 = 20
+	<- from 3 = 10
+	<- from 4 = 5
+"3" : 	nsam = 2	size ratio = 0.5	growth rate = 2
+	<- from 1 = 2.5
+	<- from 2 = 5
+	<- from 4 = 5
+"4" : 	nsam = 3	size ratio = 1	growth rate = 3
+	<- from 1 = 5
+	<- from 2 = 5
+	<- from 3 = 5
+M  x 5.0000000000 1.6666666667 5.0000000000 20.0000000000 x 10.0000000000 5.0000000000 2.5000000000 5.0000000000 x 5.0000000000 5.0000000000 5.0000000000 5.0000000000 x
+Events
+
+
+End of testing
+
+

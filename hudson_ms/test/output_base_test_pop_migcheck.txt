@@ -1,0 +1,42 @@
+makePopSingle()
+Try making the ms command using this popgrowth 5, rho , nsites 2500 and seed 1245
+The ms command is 
+ms 5 1 -G 5.0 -T -seeds 1245
+do migCheck 
+Passed migCheck
+ 
+makePopIslandBasic()
+Try making the ms command using this popgrowth 5, rho , nsites 2500 and seed 1245
+The ms command is 
+ms 5 1 -I 2 3 2 -n 1 1.0 -n 2 1.0 -g 1 5.0 -g 2 5.0 -ma  x 5.0 0.0 x -T -seeds 1245
+do migCheck 
+Passed migCheck
+ 
+makePopIslandComplex()
+Try making the ms command using this popgrowth 5, rho , nsites 2500 and seed 1245
+The ms command is 
+ms 8 1 -I 2 3 5 -n 1 1.0 -n 2 0.5 -g 1 5.0 -g 2 5.0 -ma  x 5.0 6.0 x -T -seeds 1245
+do migCheck 
+Passed migCheck
+ 
+Try makePopIslandBad1()
+Try making the ms command using this popgrowth 5, rho , nsites 2500 and seed 1245
+The ms command is 
+ms 6 1 -I 3 2 2 2 -n 1 1.0 -n 2 1.0 -n 3 1.0 -g 1 5.0 -g 2 5.0 -g 3 5.0 -ma  x 0.1 0.0 0.1 x 0.0 0.0 0.0 x -T -seeds 1245
+do migCheck 
+That resulted in a logic error exception
+Failed PopulationStructure::doMigCheck() :Subpops (	0	1	) do not communicate with subpops (	2	)
+
+makePopIslandBad2()
+Try making the ms command using this popgrowth 5, rho , nsites 2500 and seed 1245
+The ms command is 
+ms 8 1 -I 4 2 2 2 2 -n 1 1.0 -n 2 1.0 -n 3 1.0 -n 4 1.0 -g 1 5.0 -g 2 5.0 -g 3 5.0 -g 4 5.0 -ma  x 0.1 0.0 0.0 0.1 x 0.0 0.0 0.0 0.0 x 0.1 0.0 0.0 0.1 x -T -seeds 1245
+do migCheck 
+That resulted in a logic error exception
+Failed PopulationStructure::doMigCheck() :Subpops (	0	1	) do not communicate with subpops (	2	3	)
+
+
+
+End of testing
+
+
