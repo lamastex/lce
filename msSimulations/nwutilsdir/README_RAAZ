@@ -1,0 +1,6 @@
+$ ./configure
+$ make
+$ make check	# optional but recommended
+$ sudo make install
+$ sudo ldconfig
+

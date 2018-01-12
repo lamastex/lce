@@ -1,0 +1,5 @@
+error.o: ../src/error.c /usr/include/stdc-predef.h ../src/error.h
+
+/usr/include/stdc-predef.h:
+
+../src/error.h:
